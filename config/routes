@@ -15,3 +15,7 @@
 
 /escola                                EscolaR                GET POST
 /escola/#EscolaId                      EscolaIdR              GET PUT
+
+/curso/#CursoId                        CursoIdR               GET PUT
+/curso/escola/#EscolaId                EscolaCursoIdR         GET
+-- /curso/voluntario/#VoluntarioId        VoluntarioCursoIdR     GET

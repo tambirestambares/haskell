@@ -45,7 +45,7 @@ import Handler.Home
 import Handler.Comment
 import Handler.Profile
 import Handler.Escola
-
+import Handler.Curso
 import Network.Wai.Middleware.Cors (CorsResourcePolicy(..), cors)
 
 
