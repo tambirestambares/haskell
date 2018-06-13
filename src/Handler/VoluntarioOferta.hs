@@ -34,3 +34,12 @@ getVolOfertaR vid = do
         hosts   <- fmap elems . getMany $ map ofertaHostId ofertas
         return $ zip3 voluntarioOfertas ofertas hosts
     sendStatusJSON ok200 $ object ["result" .= result]
+
+getHostOfertaR :: HostId -> Handler Value
+getHostOfertaR hid = do
+    result <- runDB $ do
+        ofertas           <- selectList [OfertaHostId ==. hid] []                                                  -- [Oferta]
+        voluntarioOfertas <- mapM ((\oid -> selectList [VoluntarioOfertaOfertaId ==. oid] []) . entityKey) ofertas -- [[VoluntarioOferta]]
+        voluntarios       <- mapM (mapM (get .voluntarioOfertaVoluntarioId . entityVal)) voluntarioOfertas         -- [[Voluntario]]
+        return . concat $ zipWith3 (\a bs cs -> zipWith ((,,) a) bs cs) ofertas voluntarioOfertas voluntarios      -- [(Oferta, VoluntarioOferta, Voluntario)]
+    sendStatusJSON ok200 $ object ["result" .= result]
