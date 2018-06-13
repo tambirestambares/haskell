@@ -19,3 +19,8 @@ postVoluntarioR = do
     voluntario <- requireJsonBody :: Handler Voluntario
     vid <- runDB $ insert voluntario
     sendStatusJSON created201 (object ["resp" .= fromSqlKey vid])
+    
+getVoluntarioIdR :: VoluntarioId -> Handler Value
+getVoluntarioIdR vid = do 
+    volunt <- runDB $ get404 vid
+    sendStatusJSON ok200 (object ["resp" .= volunt])
