@@ -18,3 +18,12 @@ postCursoR = do
     curso <- requireJsonBody :: Handler Curso
     cid <- runDB $ insert curso
     sendStatusJSON created201 (object ["cursoId" .= fromSqlKey cid])
+
+
+getCursoIdR :: CursoId -> Handler Value
+getCursoIdR cid = do
+    result <- runDB $ do
+        curso <- selectList [CursoId ==. cid] []
+        escola  <- mapM (get . cursoEscolaId . entityVal) curso
+        return $ zip curso (catMaybes escola)
+    sendStatusJSON ok200 $ object ["result" .= result]
