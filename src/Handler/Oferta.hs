@@ -26,3 +26,9 @@ putOfertaIdR oid = do
     novaOferta <- requireJsonBody :: Handler Oferta
     runDB $ replace oid novaOferta
     sendStatusJSON noContent204 (object [])
+
+deleteOfertaIdR :: OfertaId -> Handler Value
+deleteOfertaIdR oid = do
+    _ <- runDB $ get404 oid
+    runDB $ delete oid
+    sendStatusJSON noContent204 (object [])
