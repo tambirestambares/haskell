@@ -50,6 +50,7 @@ import Handler.Host
 import Handler.Login
 import Handler.Oferta
 import Handler.Voluntario
+import Handler.VoluntarioOferta
 import Network.Wai.Middleware.Cors (CorsResourcePolicy(..), cors)
 
 
