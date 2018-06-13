@@ -178,6 +178,11 @@ instance Yesod App where
     
     isAuthorized OfertaR _ = return Authorized
     isAuthorized (OfertaIdR _) _ = return Authorized
+    
+    isAuthorized VoluntarioR _ = return Authorized
+    isAuthorized (VoluntarioIdR _) _ = return Authorized
+   
+    isAuthorized LoginAppR _ = return Authorized
   
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
