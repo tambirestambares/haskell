@@ -1,0 +1,84 @@
+User json
+    ident Text
+    password Text Maybe
+    UniqueUser ident
+    deriving Typeable
+    
+Email
+    email Text
+    userId UserId Maybe
+    verkey Text Maybe
+    UniqueEmail email
+Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived.
+    message Text
+    userId UserId Maybe
+    deriving Eq
+    deriving Show
+
+
+Voluntario json
+    tipoUsuarioId TipoUsuarioId
+    nome Text
+    email Text
+    senha Text
+    status Bool
+
+Host json
+    tipoUsuarioId TipoUsuarioId
+    nome Text
+    email Text
+    senha Text
+    docCasaImg Text
+    identidadeImg Text
+    fotoProvaImg Text
+    status Bool
+
+Oferta json
+    pais Text
+    estado Text
+    cidade Text
+    hostId HostId
+    endereco Text
+    descricao Text
+    foto Text
+    atividadeVoluntaria Text
+--    latitude Text Maybe
+--    longitude Text Maybe
+    status Bool
+    
+VoluntarioOferta json
+    voluntarioId VoluntarioId
+    ofertaId OfertaId
+    inicio Day
+    fim Day
+    
+Escola json
+    tipoUsuarioId TipoUsuarioId
+    nome Text
+    pais Text
+    estado Text
+    cidade Text
+    endereco Text
+    email Text
+    telefone Text
+    senha Text
+    latitude Text Maybe
+    longitude Text Maybe
+    status Bool
+    escolaImg Text
+    
+Curso json
+    escolaId EscolaId
+    nome Text
+    descricao Text Maybe
+    ementa Text
+    duracao Text
+    cargaHoraria Text
+    valor Double
+    horario Text
+    inicio Day
+    fim Day
+    status Bool
+
+TipoUsuario json
+    nome Text
