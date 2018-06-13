@@ -27,3 +27,10 @@ getCursoIdR cid = do
         escola  <- mapM (get . cursoEscolaId . entityVal) curso
         return $ zip curso (catMaybes escola)
     sendStatusJSON ok200 $ object ["result" .= result]
+    
+putCursoIdR :: CursoId -> Handler Value
+putCursoIdR cid = do
+    _ <- runDB $ get404 cid
+    editarCurso <- requireJsonBody :: Handler Curso
+    runDB $ replace cid editarCurso
+    sendStatusJSON noContent204 (object [])
