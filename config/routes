@@ -19,3 +19,6 @@
 /curso/#CursoId                        CursoIdR               GET PUT
 /curso/escola/#EscolaId                EscolaCursoIdR         GET
 -- /curso/voluntario/#VoluntarioId        VoluntarioCursoIdR     GET
+
+/host                                  HostR                  GET POST
+/host/#HostId                          HostIdR                PUT 

@@ -173,6 +173,9 @@ instance Yesod App where
     isAuthorized CursoR _ = return Authorized
     isAuthorized (CursoIdR _) _ = return Authorized
     
+    isAuthorized HostR _ = return Authorized
+    isAuthorized (HostIdR _) _ = return Authorized
+    
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
     isAuthorized ProfileR _ = isAuthenticated
