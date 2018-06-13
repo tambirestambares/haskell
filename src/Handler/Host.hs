@@ -20,3 +20,9 @@ postHostR = do
     hid <- runDB $ insert newHost
     sendStatusJSON created201 (object ["resp" .= fromSqlKey hid])
 
+putHostIdR :: HostId -> Handler Value
+putHostIdR hid = do
+    _ <- runDB $ get404 hid
+    novoHost <- requireJsonBody :: Handler Host
+    runDB $ replace hid novoHost
+    sendStatusJSON noContent204 (object [])
