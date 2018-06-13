@@ -18,3 +18,9 @@ postEscolaR = do
     escola <- requireJsonBody :: Handler Escola
     eid <- runDB $ insert escola
     sendStatusJSON created201 (object ["escolaId" .= fromSqlKey eid])
+
+getEscolaIdR :: EscolaId -> Handler Value
+getEscolaIdR eid = do
+    escola <- runDB $ get404 eid
+    sendStatusJSON ok200 (object ["escola" .= escola])
+
