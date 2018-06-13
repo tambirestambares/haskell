@@ -1,0 +1,47 @@
+
+==================== FINAL INTERFACE ====================
+2018-06-10 20:35:29.138017 UTC
+
+interface IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Handler.Arquivo 8022
+  interface hash: 601ea5c101fd53631372efb1141d860d
+  ABI hash: bf6670e0048f610042bebd47750d9a31
+  export-list hash: aff698be1a828c48f378a1c744e7df92
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: d46ca90f7e7fcc14383f455542c21745
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+module dependencies:
+package dependencies:
+orphans:
+family instance modules:
+0014ae00ec5373da3ade918f31fd5059
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Handler.Arquivo.$trModule3
+                   Handler.Arquivo.$trModule1) -}
+893d940b90ebd5a4bf559acdb7908f70
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Handler.Arquivo.$trModule2) -}
+b5edad5eaeb861a34488fa6abe1f14cb
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Handler.Arquivo"#) -}
+799406e36e69ef17302d1292f963a75f
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Handler.Arquivo.$trModule4) -}
+905b5f516524f605275724fcbfe612ea
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

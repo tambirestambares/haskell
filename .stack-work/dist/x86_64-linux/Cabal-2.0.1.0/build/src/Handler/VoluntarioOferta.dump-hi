@@ -1,0 +1,1328 @@
+
+==================== FINAL INTERFACE ====================
+2018-06-13 00:53:51.510639 UTC
+
+interface IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Handler.VoluntarioOferta 8022
+  interface hash: b51c8ddc73fd9bd70901f870872c29d8
+  ABI hash: 124f491614fc0ea57d1bb3c3e8564ac1
+  export-list hash: e34a87064db52be4e163632f56c4d0a8
+  orphan hash: 6416fb69b17bd748c50921afac8983d0
+  flag hash: d46ca90f7e7fcc14383f455542c21745
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Handler.VoluntarioOferta.getHostOfertaR
+  Handler.VoluntarioOferta.getVolOfertaR
+  Handler.VoluntarioOferta.getVoluntarioOfertaIdR
+  Handler.VoluntarioOferta.getVoluntarioOfertaR
+  Handler.VoluntarioOferta.postVoluntarioOfertaR
+module dependencies: Foundation Import Import.NoFoundation Model
+                     Settings Settings.StaticFiles
+package dependencies: StateVar-1.1.1.0 adjunctions-4.4
+                      aeson-1.2.4.0 aeson-compat-0.3.7.1 ansi-terminal-0.8.0.4
+                      appar-0.1.4 array-0.5.2.0 asn1-encoding-0.9.5 asn1-parse-0.9.4
+                      asn1-types-0.3.2 async-2.1.1.1 attoparsec-0.13.2.2
+                      attoparsec-iso8601-1.0.0.0 authenticate-1.3.4 auto-update-0.1.4
+                      base-4.10.1.0 base-compat-0.9.3 base-orphans-0.7
+                      base64-bytestring-1.0.0.1 basement-0.0.7 basic-prelude-0.7.0
+                      bifunctors-5.5.2 binary-0.8.5.1 blaze-builder-0.4.1.0
+                      blaze-html-0.9.0.1 blaze-markup-0.8.2.1 bsb-http-chunked-0.0.0.2
+                      byteable-0.1.1 byteorder-1.0.4 bytestring-0.10.8.2
+                      case-insensitive-1.2.0.11 cereal-0.5.5.0 chunked-data-0.3.1
+                      cipher-aes-0.2.11 classy-prelude-1.4.0 classy-prelude-conduit-1.4.0
+                      classy-prelude-yesod-1.4.0 clientsession-0.9.1.2 colour-2.3.4
+                      comonad-5.0.3 conduit-1.3.0.2 conduit-extra-1.3.0 connection-0.2.8
+                      containers-0.5.10.2 contravariant-1.4.1 cookie-0.4.4
+                      cprng-aes-0.6.1 crypto-api-0.13.3 crypto-cipher-types-0.0.9
+                      crypto-random-0.0.9 cryptonite-0.25 cryptonite-conduit-0.2.2
+                      css-text-0.1.3.0 data-default-0.7.1.1 data-default-class-0.1.2.0
+                      data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      deepseq-generics-0.2.0.0 directory-1.3.0.2 distributive-0.5.3
+                      dlist-0.8.0.4 dlist-instances-0.1.1.1 easy-file-0.2.2
+                      email-validate-2.3.2.5 entropy-0.3.8 exceptions-0.8.3
+                      fast-logger-2.4.11 file-embed-0.0.10.1 filepath-1.4.1.2 free-5.0.2
+                      ghc-boot-th-8.2.2 ghc-prim-0.5.1.1 hashable-1.2.7.0
+                      haskell-src-exts-1.20.2 haskell-src-meta-0.8.0.2 hjsmin-0.2.0.2
+                      hourglass-0.2.11 http-api-data-0.3.7.2 http-client-0.5.12.1
+                      http-client-tls-0.3.5.3 http-conduit-2.3.1 http-date-0.0.7
+                      http-types-0.12.1 http2-1.6.3 integer-gmp-1.0.1.0
+                      integer-logarithms-1.0.2.1 iproute-1.7.5 kan-extensions-5.1
+                      keys-3.12 language-javascript-0.6.0.11 lifted-base-0.2.3.12
+                      memory-0.14.16 mime-types-0.1.0.7 monad-control-1.0.2.3
+                      monad-logger-0.3.28.5 monad-loops-0.4.3 mono-traversable-1.0.8.1
+                      mono-traversable-instances-0.1.0.0 mtl-2.2.2
+                      mutable-containers-0.3.4 network-2.6.3.5 network-uri-2.6.1.0
+                      old-locale-1.0.0.7 old-time-1.1.0.3 parsec-3.1.13.0
+                      path-pieces-0.2.1 pem-0.2.4 persistent-2.8.2
+                      persistent-postgresql-2.8.2.0 persistent-template-2.5.4
+                      pointed-5.0.1 postgresql-libpq-0.9.4.1 postgresql-simple-0.5.3.0
+                      pretty-1.1.3.3 primitive-0.6.3.0 process-1.6.1.0 profunctors-5.2.2
+                      psqueues-0.2.7.0 random-1.1 resource-pool-0.2.3.2 resourcet-1.2.1
+                      safe-0.3.17 say-0.1.0.0 scientific-0.3.6.2 securemem-0.1.10
+                      semigroupoids-5.2.2 shakespeare-2.0.15 silently-1.2.5
+                      simple-sendfile-0.2.27 skein-1.0.9.4 socks-0.5.6 split-0.2.3.3
+                      stm-2.4.5.0 stm-chans-3.0.0.4 streaming-commons-0.1.19
+                      stringsearch-0.3.6.6 tagged-0.8.5 tagsoup-0.14.6
+                      tagstream-conduit-0.5.5.3 template-haskell-2.12.0.0 text-1.2.3.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.4 tls-1.4.1
+                      transformers-0.5.2.0 transformers-base-0.4.4
+                      transformers-compat-0.5.1.4 unix-2.7.2.2 unix-compat-0.5.0.1
+                      unix-time-0.3.8 unliftio-0.2.7.0 unliftio-core-0.1.1.0
+                      unordered-containers-0.2.9.0 utf8-string-1.0.1.1 uuid-types-1.0.3
+                      vault-0.3.1.0 vector-0.12.0.1 vector-algorithms-0.7.0.1
+                      vector-instances-3.4 wai-3.2.1.2 wai-app-static-3.1.6.2
+                      wai-extra-3.0.22.0 wai-logger-2.3.2 warp-3.2.22 word8-0.1.3
+                      x509-1.7.3 x509-store-1.6.6 x509-system-1.6.6
+                      x509-validation-1.6.10 xml-conduit-1.8.0 xml-types-0.3.6
+                      xss-sanitize-0.3.5.7 yaml-0.8.30 yesod-1.6.0 yesod-auth-1.6.3
+                      yesod-core-1.6.5 yesod-form-1.6.1 yesod-newsfeed-1.6.1.0
+                      yesod-persistent-1.6.0 yesod-static-1.6.0 zlib-0.6.2
+orphans: mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+         vector-instances-3.4:Data.Vector.Instances
+         base-orphans-0.7:Data.Orphans
+         data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         yesod-auth-1.6.3:Yesod.Auth
+         http-client-0.5.12.1:Network.HTTP.Client.Request
+         persistent-template-2.5.4:Database.Persist.TH
+         colour-2.3.4:Data.Colour crypto-api-0.13.3:Crypto.Classes
+         basement-0.0.7:Basement.UArray.Base basement-0.0.7:Basement.Block
+         network-2.6.3.5:Network.Socket
+         haskell-src-exts-1.20.2:Language.Haskell.Exts.Parser
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+         unix-time-0.3.8:Data.UnixTime.Diff
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.0:Data.Text.Lazy
+         text-1.2.3.0:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.0:Data.Text.Show
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         transformers-0.5.2.0:Control.Monad.Trans.Error
+         stm-2.4.5.0:Control.Monad.STM time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Foundation
+                         IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Model
+                         adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.2.4.0:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.10.1.0:Control.Applicative base-4.10.1.0:Data.Complex
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Compose
+                         base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats basement-0.0.7:Basement.Block.Base
+                         basement-0.0.7:Basement.Monad
+                         basement-0.0.7:Basement.MutableBuilder basement-0.0.7:Basement.Nat
+                         basement-0.0.7:Basement.NonEmpty
+                         basement-0.0.7:Basement.Numerical.Subtractive
+                         basement-0.0.7:Basement.PrimType basement-0.0.7:Basement.String
+                         basement-0.0.7:Basement.String.Encoding.ASCII7
+                         basement-0.0.7:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.7:Basement.String.Encoding.UTF16
+                         basement-0.0.7:Basement.String.Encoding.UTF32
+                         basement-0.0.7:Basement.Types.OffsetSize
+                         basement-0.0.7:Basement.UArray.Base
+                         basement-0.0.7:Basement.UTF8.Base
+                         bifunctors-5.5.2:Data.Bifunctor.Biff
+                         bifunctors-5.5.2:Data.Bifunctor.Clown
+                         bifunctors-5.5.2:Data.Bifunctor.Flip
+                         bifunctors-5.5.2:Data.Bifunctor.Join
+                         bifunctors-5.5.2:Data.Bifunctor.Joker
+                         bifunctors-5.5.2:Data.Bifunctor.Product
+                         bifunctors-5.5.2:Data.Bifunctor.Sum
+                         bifunctors-5.5.2:Data.Bifunctor.Tannen
+                         bifunctors-5.5.2:Data.Bifunctor.Wrapped
+                         conduit-1.3.0.2:Data.Conduit.Internal.Conduit
+                         conduit-1.3.0.2:Data.Conduit.Internal.Pipe
+                         containers-0.5.10.2:Data.IntMap.Internal
+                         containers-0.5.10.2:Data.IntSet.Internal
+                         containers-0.5.10.2:Data.Map.Internal
+                         containers-0.5.10.2:Data.Sequence.Internal
+                         containers-0.5.10.2:Data.Set.Internal containers-0.5.10.2:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.4:Data.DList
+                         email-validate-2.3.2.5:Text.Email.Parser
+                         free-5.0.2:Control.Comonad.Cofree free-5.0.2:Control.Monad.Free
+                         free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.2.2:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.2.2:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.Syntax
+                         http-client-0.5.12.1:Network.HTTP.Client iproute-1.7.5:Data.IP.Addr
+                         iproute-1.7.5:Data.IP.Range kan-extensions-5.1:Data.Functor.Day
+                         keys-3.12:Data.Key
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         monad-logger-0.3.28.5:Control.Monad.Logger
+                         mono-traversable-1.0.8.1:Data.Containers
+                         mono-traversable-1.0.8.1:Data.MonoTraversable
+                         mono-traversable-1.0.8.1:Data.NonNull
+                         mono-traversable-1.0.8.1:Data.Sequences
+                         mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+                         mutable-containers-0.3.4:Data.Mutable.BRef
+                         mutable-containers-0.3.4:Data.Mutable.Class
+                         mutable-containers-0.3.4:Data.Mutable.DLList
+                         mutable-containers-0.3.4:Data.Mutable.Deque
+                         mutable-containers-0.3.4:Data.Mutable.PRef
+                         mutable-containers-0.3.4:Data.Mutable.SRef
+                         mutable-containers-0.3.4:Data.Mutable.URef
+                         network-uri-2.6.1.0:Network.URI
+                         persistent-2.8.2:Database.Persist.Class.PersistConfig
+                         persistent-2.8.2:Database.Persist.Class.PersistEntity
+                         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.8.2:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.8.2.0:Database.Persist.Postgresql
+                         pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep
+                         resourcet-1.2.1:Control.Monad.Trans.Resource.Internal
+                         shakespeare-2.0.15:Text.Internal.Css
+                         shakespeare-2.0.15:Text.Shakespeare tagged-0.8.5:Data.Tagged
+                         template-haskell-2.12.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.0:Data.Text text-1.2.3.0:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         vector-instances-3.4:Data.Vector.Instances
+                         xml-types-0.3.6:Data.XML.Types yesod-auth-1.6.3:Yesod.Auth
+                         yesod-auth-1.6.3:Yesod.Auth.Routes
+                         yesod-core-1.6.5:Yesod.Core.Class.Handler
+                         yesod-core-1.6.5:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.6.5:Yesod.Core.Types yesod-static-1.6.0:Yesod.Static
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  Foundation d8dfd41e5ca0aa4fa64f74ef82850bd5
+  Handler c47de90e540ccea1173f100b8ea1bf32
+import  -/  Import d2a2ad1a2e43889a57b80292c008e78d
+  exports: 9ed660c05ab47b96cffd42010aa4b38a
+import  -/  Model 690c55138ea9a00345704b644bb474fa
+  HostId fd93dc245fcb1c68fa6e01d0cc9f8479
+  OfertaHostId 194a392ecdee08d5da189c35baea883f
+  VoluntarioId a4f83e6665e4ac264753d7652d5a98bc
+  VoluntarioOferta 67dc93b6484c0f43a3b837c8e1e42b13
+  VoluntarioOfertaId 1f8132671e25df5e097ae49e89a385b2
+  VoluntarioOfertaInicio 5d537462d88daf99310d0341fcf68ddc
+  VoluntarioOfertaOfertaId 9f985d8d755a54579b40e17e03c04e86
+  VoluntarioOfertaVoluntarioId b3713898c66de15305510b646649f1e3
+  ofertaHostId 732381b467c79ce4ff2bd49ac15ebb7d
+  voluntarioOfertaOfertaId 67dc93b6484c0f43a3b837c8e1e42b13
+  voluntarioOfertaVoluntarioId 67dc93b6484c0f43a3b837c8e1e42b13
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.Internal 784b71bc86ee16e29783284c611f3837
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.ToJSON 72e379d37083588a3575a678e59632aa
+import  -/  base-4.10.1.0:Control.Category e391ae0ab2b20aef43c0035a99142ed1
+import  -/  base-4.10.1.0:Data.Traversable 60ea7c2973e63de7d08d5d0269f96e67
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  chunked-data-0.3.1:Data.ChunkedZip e11e51c21939de89a93ab674a1672565
+import  -/  classy-prelude-1.4.0:ClassyPrelude 94ca66bb95645fe3793bdc39d5b11165
+import  -/  containers-0.5.10.2:Data.Map.Internal 33ddbf5aa8c0f2ab26fb6dc5be1b1f4c
+import  -/  containers-0.5.10.2:Data.Map.Strict 194f5b0a9785a91a43562790aa6787fc
+import  -/  http-types-0.12.1:Network.HTTP.Types.Status 6172b4730ff68a0204e2f520adb9992b
+import  -/  mono-traversable-1.0.8.1:Data.MonoTraversable.Unprefixed ab6ded0b5e5cbb7a122b67c9302f8583
+import  -/  persistent-2.8.2:Database.Persist 6083a23cdfba0e849ee2bbe12206ca90
+import  -/  persistent-2.8.2:Database.Persist.Class.PersistEntity ebafaf6069c7e096aacccb493c5e975c
+import  -/  persistent-2.8.2:Database.Persist.Class.PersistQuery 308afab9ea67f302da5d776ff27d419f
+import  -/  persistent-2.8.2:Database.Persist.Class.PersistStore 5f5e05043066ee7e65ed1eb9cecf0e7b
+import  -/  persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore abbc05d2338ccc2e18411359e0fe9674
+import  -/  persistent-postgresql-2.8.2.0:Database.Persist.Postgresql 96ae6311fad18b19e9619e3fd2e51c56
+import  -/  yesod-core-1.6.5:Yesod.Core.Handler 50f39555795fab4e524233a5550cf412
+import  -/  yesod-core-1.6.5:Yesod.Core.Json 9cfb7919d14e0fd89f3e215a3c6c3ef1
+import  -/  yesod-persistent-1.6.0:Yesod.Persist.Core 9ece31adbd925b93c5f8679a2f1ad61e
+2b3bd336638963e4511278e7ec80c6a2
+  $s$WOfertaHostId_$d~~ ::
+    (Database.Persist.Class.PersistEntity.Key Model.Host :: *)
+    GHC.Types.~~
+    (Database.Persist.Class.PersistEntity.Key Model.Host :: *)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Database.Persist.Class.PersistEntity.Key Model.Host)
+                   @ (Database.Persist.Class.PersistEntity.Key Model.Host)
+                   @~ <Database.Persist.Class.PersistEntity.Key Model.Host>_N) -}
+dd78b8073d5416e8d43d187b7fd33627
+  $s$WVoluntarioOfertaOfertaId_$d~~ ::
+    (Database.Persist.Class.PersistEntity.Key Model.Oferta :: *)
+    GHC.Types.~~
+    (Database.Persist.Class.PersistEntity.Key Model.Oferta :: *)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Database.Persist.Class.PersistEntity.Key Model.Oferta)
+                   @ (Database.Persist.Class.PersistEntity.Key Model.Oferta)
+                   @~ <Database.Persist.Class.PersistEntity.Key Model.Oferta>_N) -}
+2ae8a722016dccc49d131cbd7db772c4
+  $s$WVoluntarioOfertaVoluntarioId_$d~~ ::
+    (Database.Persist.Class.PersistEntity.Key Model.Voluntario :: *)
+    GHC.Types.~~
+    (Database.Persist.Class.PersistEntity.Key Model.Voluntario :: *)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Database.Persist.Class.PersistEntity.Key Model.Voluntario)
+                   @ (Database.Persist.Class.PersistEntity.Key Model.Voluntario)
+                   @~ <Database.Persist.Class.PersistEntity.Key
+                         Model.Voluntario>_N) -}
+93e7effd60b16ece7cb9623e0e28fa0b
+  $s$fToJSON(,,)_$cliftToJSON1 ::
+    (a1 -> Data.Aeson.Types.Internal.Value)
+    -> ([a1] -> Data.Aeson.Types.Internal.Value)
+    -> (b -> Data.Aeson.Types.Internal.Value)
+    -> ([b] -> Data.Aeson.Types.Internal.Value)
+    -> (Database.Persist.Class.PersistEntity.Entity
+          Model.VoluntarioOferta,
+        a1, b)
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 5,
+     Strictness: <L,1*C1(U)><L,A><L,1*C1(U)><L,A><S,1*U(1*U(1*U(U),1*U(U,U,U,U)),U,U)>m2,
+     Inline: (sat-args=5),
+     Unfolding: InlineRule (5, False, False)
+                (\ @ a2
+                   @ b
+                   (toB :: a2 -> Data.Aeson.Types.Internal.Value)
+                   (ds :: [a2] -> Data.Aeson.Types.Internal.Value)
+                   (toC :: b -> Data.Aeson.Types.Internal.Value)
+                   (ds1 :: [b] -> Data.Aeson.Types.Internal.Value)
+                   (ds2 :: (Database.Persist.Class.PersistEntity.Entity
+                              Model.VoluntarioOferta,
+                            a2, b)) ->
+                 case ds2 of wild { (,,) a3 b1 c ->
+                 Data.Aeson.Types.Internal.$WArray
+                   (Data.Vector.Generic.new
+                      @ Data.Vector.Vector
+                      @ Data.Aeson.Types.Internal.Value
+                      (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                      (Data.Vector.Generic.New.New
+                         @ Data.Vector.Vector
+                         @ Data.Aeson.Types.Internal.Value
+                         (\ @ s (s1 :: GHC.Prim.State# s) ->
+                          case GHC.Prim.newArray#
+                                 @ Data.Aeson.Types.Internal.Value
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 3#
+                                 (Data.Vector.Mutable.uninitialised
+                                    @ Data.Aeson.Types.Internal.Value)
+                                 s1
+                                   `cast`
+                                 (Nth:2
+                                      (Nth:2
+                                           (Trans
+                                                (<GHC.ST.STRep
+                                                    s
+                                                    (Data.Primitive.Array.MutableArray
+                                                       (Control.Monad.Primitive.PrimState
+                                                          (GHC.ST.ST s))
+                                                       Data.Aeson.Types.Internal.Value)>_R
+                                                 ->_R Sym (GHC.ST.N:ST[0]
+                                                               <s>_N
+                                                               <Data.Primitive.Array.MutableArray
+                                                                  (Control.Monad.Primitive.PrimState
+                                                                     (GHC.ST.ST s))
+                                                                  Data.Aeson.Types.Internal.Value>_R))
+                                                (((GHC.Prim.State#
+                                                     (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                               <s>_N)))_R
+                                                  ->_R ((#,#)
+                                                          <'GHC.Types.TupleRep '[]>_R
+                                                          <'GHC.Types.LiftedRep>_R
+                                                          (GHC.Prim.State#
+                                                             (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                                       <s>_N)))_R
+                                                          <Data.Primitive.Array.MutableArray
+                                                             (Control.Monad.Primitive.PrimState
+                                                                (GHC.ST.ST s))
+                                                             Data.Aeson.Types.Internal.Value>_R)_R)
+                                                 ->_R <GHC.ST.ST
+                                                         s
+                                                         (Data.Primitive.Array.MutableArray
+                                                            (Control.Monad.Primitive.PrimState
+                                                               (GHC.ST.ST s))
+                                                            Data.Aeson.Types.Internal.Value)>_R)))) of ds3 { (#,#) ipv1 ipv2 ->
+                          case Data.Vector.Mutable.$WMVector
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (GHC.Types.I# 0#)
+                                 (GHC.Types.I# 3#)
+                                 (Data.Primitive.Array.MutableArray
+                                    @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                    @ Data.Aeson.Types.Internal.Value
+                                    ipv2) of wild1 { Data.Vector.Mutable.MVector dt dt1 dt2 ->
+                          case GHC.Prim.writeArray#
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 dt2
+                                 dt
+                                 (Model.$fToJSONEntity7_$ctoJSON a3)
+                                 ipv1 of s'# { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 dt2
+                                 (GHC.Prim.+# dt 1#)
+                                 (toB b1)
+                                 s'# of s'#1 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 dt2
+                                 (GHC.Prim.+# dt 2#)
+                                 (toC c)
+                                 s'#1 of s'#2 { DEFAULT ->
+                          (# s'#2
+                               `cast`
+                             (Nth:2
+                                  (Nth:3
+                                       (Nth:2
+                                            (Trans
+                                                 (((GHC.Prim.State#
+                                                      (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <s>_N))_R
+                                                   ->_R ((#,#)
+                                                           <'GHC.Types.TupleRep '[]>_R
+                                                           <'GHC.Types.LiftedRep>_R
+                                                           (GHC.Prim.State#
+                                                              (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                                   <s>_N))_R
+                                                           <()>_R)_R)
+                                                  ->_R <GHC.ST.ST s ()>_R)
+                                                 (<GHC.ST.STRep s ()>_R
+                                                  ->_R GHC.ST.N:ST[0] <s>_N <()>_R))))),
+                             wild1
+                               `cast`
+                             (Data.Vector.Mutable.MVector
+                                (Control.Monad.Primitive.D:R:PrimStateST[0] <s>_N)
+                                <Data.Aeson.Types.Internal.Value>_R)_R #) } } } } })
+                           `cast`
+                         (forall (s :: <*>_N).
+                          Sym (GHC.ST.N:ST[0]
+                                   <s>_N
+                                   (Sub (Data.Vector.D:R:MutableVector[0]) <s>_N <Data.Aeson.Types.Internal.Value>_N))))) }) -}
+5f6e69725166c3f1194a7047e2f47d15
+  $s$fToJSON(,,)_$cliftToJSON2 ::
+    (a1 -> Data.Aeson.Types.Internal.Value)
+    -> ([a1] -> Data.Aeson.Types.Internal.Value)
+    -> (b -> Data.Aeson.Types.Internal.Value)
+    -> ([b] -> Data.Aeson.Types.Internal.Value)
+    -> (Database.Persist.Class.PersistEntity.Entity Model.Oferta, a1,
+        b)
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 5,
+     Strictness: <L,1*C1(U)><L,A><L,1*C1(U)><L,A><S,1*U(1*U(1*U(U),1*U(U,U,U,U,U,U,U,U,U)),U,U)>m2,
+     Inline: (sat-args=5),
+     Unfolding: InlineRule (5, False, False)
+                (\ @ a2
+                   @ b
+                   (toB :: a2 -> Data.Aeson.Types.Internal.Value)
+                   (ds :: [a2] -> Data.Aeson.Types.Internal.Value)
+                   (toC :: b -> Data.Aeson.Types.Internal.Value)
+                   (ds1 :: [b] -> Data.Aeson.Types.Internal.Value)
+                   (ds2 :: (Database.Persist.Class.PersistEntity.Entity Model.Oferta,
+                            a2, b)) ->
+                 case ds2 of wild { (,,) a3 b1 c ->
+                 Data.Aeson.Types.Internal.$WArray
+                   (Data.Vector.Generic.new
+                      @ Data.Vector.Vector
+                      @ Data.Aeson.Types.Internal.Value
+                      (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                      (Data.Vector.Generic.New.New
+                         @ Data.Vector.Vector
+                         @ Data.Aeson.Types.Internal.Value
+                         (\ @ s (s1 :: GHC.Prim.State# s) ->
+                          case GHC.Prim.newArray#
+                                 @ Data.Aeson.Types.Internal.Value
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 3#
+                                 (Data.Vector.Mutable.uninitialised
+                                    @ Data.Aeson.Types.Internal.Value)
+                                 s1
+                                   `cast`
+                                 (Nth:2
+                                      (Nth:2
+                                           (Trans
+                                                (<GHC.ST.STRep
+                                                    s
+                                                    (Data.Primitive.Array.MutableArray
+                                                       (Control.Monad.Primitive.PrimState
+                                                          (GHC.ST.ST s))
+                                                       Data.Aeson.Types.Internal.Value)>_R
+                                                 ->_R Sym (GHC.ST.N:ST[0]
+                                                               <s>_N
+                                                               <Data.Primitive.Array.MutableArray
+                                                                  (Control.Monad.Primitive.PrimState
+                                                                     (GHC.ST.ST s))
+                                                                  Data.Aeson.Types.Internal.Value>_R))
+                                                (((GHC.Prim.State#
+                                                     (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                               <s>_N)))_R
+                                                  ->_R ((#,#)
+                                                          <'GHC.Types.TupleRep '[]>_R
+                                                          <'GHC.Types.LiftedRep>_R
+                                                          (GHC.Prim.State#
+                                                             (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                                       <s>_N)))_R
+                                                          <Data.Primitive.Array.MutableArray
+                                                             (Control.Monad.Primitive.PrimState
+                                                                (GHC.ST.ST s))
+                                                             Data.Aeson.Types.Internal.Value>_R)_R)
+                                                 ->_R <GHC.ST.ST
+                                                         s
+                                                         (Data.Primitive.Array.MutableArray
+                                                            (Control.Monad.Primitive.PrimState
+                                                               (GHC.ST.ST s))
+                                                            Data.Aeson.Types.Internal.Value)>_R)))) of ds3 { (#,#) ipv1 ipv2 ->
+                          case Data.Vector.Mutable.$WMVector
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (GHC.Types.I# 0#)
+                                 (GHC.Types.I# 3#)
+                                 (Data.Primitive.Array.MutableArray
+                                    @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                    @ Data.Aeson.Types.Internal.Value
+                                    ipv2) of wild1 { Data.Vector.Mutable.MVector dt dt1 dt2 ->
+                          case GHC.Prim.writeArray#
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 dt2
+                                 dt
+                                 (Model.$fToJSONEntity5_$ctoJSON a3)
+                                 ipv1 of s'# { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 dt2
+                                 (GHC.Prim.+# dt 1#)
+                                 (toB b1)
+                                 s'# of s'#1 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                 @ Data.Aeson.Types.Internal.Value
+                                 dt2
+                                 (GHC.Prim.+# dt 2#)
+                                 (toC c)
+                                 s'#1 of s'#2 { DEFAULT ->
+                          (# s'#2
+                               `cast`
+                             (Nth:2
+                                  (Nth:3
+                                       (Nth:2
+                                            (Trans
+                                                 (((GHC.Prim.State#
+                                                      (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <s>_N))_R
+                                                   ->_R ((#,#)
+                                                           <'GHC.Types.TupleRep '[]>_R
+                                                           <'GHC.Types.LiftedRep>_R
+                                                           (GHC.Prim.State#
+                                                              (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                                   <s>_N))_R
+                                                           <()>_R)_R)
+                                                  ->_R <GHC.ST.ST s ()>_R)
+                                                 (<GHC.ST.STRep s ()>_R
+                                                  ->_R GHC.ST.N:ST[0] <s>_N <()>_R))))),
+                             wild1
+                               `cast`
+                             (Data.Vector.Mutable.MVector
+                                (Control.Monad.Primitive.D:R:PrimStateST[0] <s>_N)
+                                <Data.Aeson.Types.Internal.Value>_R)_R #) } } } } })
+                           `cast`
+                         (forall (s :: <*>_N).
+                          Sym (GHC.ST.N:ST[0]
+                                   <s>_N
+                                   (Sub (Data.Vector.D:R:MutableVector[0]) <s>_N <Data.Aeson.Types.Internal.Value>_N))))) }) -}
+831412a549cbfc61e40552409d84678b
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Handler.VoluntarioOferta.$trModule3
+                   Handler.VoluntarioOferta.$trModule1) -}
+2c15399da452613ba1f5b9144df315aa
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Handler.VoluntarioOferta.$trModule2) -}
+59b01529ebeceda1d55bfbaa48766368
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Handler.VoluntarioOferta"#) -}
+1868e6eacdf616bd7c1ae1980346e183
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Handler.VoluntarioOferta.$trModule4) -}
+214b9ba549227127e85ba08f6ae892d1
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH"#) -}
+98942f790efb801937ba1639d33aeede
+  $wlvl ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 2, Strictness: <B,U><B,U>x, Inline: [0] -}
+16477c55f1fed72784623263d61f6fa9
+  getHostOfertaR ::
+    Model.HostId -> Foundation.Handler Data.Aeson.Types.Internal.Value
+  {- Arity: 3,
+     Strictness: <L,U><L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.VoluntarioOferta.getHostOfertaR1
+                  `cast`
+                (<Model.HostId>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                           ->_R Sym (GHC.Types.N:IO[0] <Data.Aeson.Types.Internal.Value>_R))
+                          (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                                    <Foundation.App>_N <Data.Aeson.Types.Internal.Value>_R))) -}
+c66fe78aa46b6b4c2ff7cda303216649
+  getHostOfertaR1 ::
+    Model.HostId
+    -> Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3,
+     Strictness: <L,U><L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ (hid :: Model.HostId)
+                   (eta :: Yesod.Core.Types.HandlerData Foundation.App Foundation.App)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 Handler.VoluntarioOferta.getHostOfertaR2 eta eta1 hid) -}
+c4c51ae17326d5623484b4a0723e7089
+  getHostOfertaR2 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> Model.HostId
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U><L,U> -}
+fdc7d847a9476206b5cb4f771da3eae4
+  getVolOfertaR ::
+    Model.VoluntarioId
+    -> Foundation.Handler Data.Aeson.Types.Internal.Value
+  {- Arity: 3,
+     Strictness: <L,U><L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.VoluntarioOferta.getVolOfertaR1
+                  `cast`
+                (<Model.VoluntarioId>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                           ->_R Sym (GHC.Types.N:IO[0] <Data.Aeson.Types.Internal.Value>_R))
+                          (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                                    <Foundation.App>_N <Data.Aeson.Types.Internal.Value>_R))) -}
+31028e99f1431ff237b099178a6b7711
+  getVolOfertaR1 ::
+    Model.VoluntarioId
+    -> Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3,
+     Strictness: <L,U><L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ (vid :: Model.VoluntarioId)
+                   (eta :: Yesod.Core.Types.HandlerData Foundation.App Foundation.App)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 Handler.VoluntarioOferta.getVolOfertaR2 eta eta1 vid) -}
+502fb42b910d2ddaf6e6aa754fc52a01
+  getVolOfertaR2 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> Model.VoluntarioId
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U><L,U> -}
+ccedf9cc70bd4fb74ff1da7bb7a9638f
+  getVoluntarioOfertaIdR ::
+    Model.VoluntarioOfertaId
+    -> Foundation.Handler Data.Aeson.Types.Internal.Value
+  {- Arity: 3,
+     Strictness: <L,U><L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.VoluntarioOferta.getVoluntarioOfertaIdR1
+                  `cast`
+                (<Model.VoluntarioOfertaId>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                           ->_R Sym (GHC.Types.N:IO[0] <Data.Aeson.Types.Internal.Value>_R))
+                          (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                                    <Foundation.App>_N <Data.Aeson.Types.Internal.Value>_R))) -}
+97414a66f7d705b0361ebd1883a2a84d
+  getVoluntarioOfertaIdR1 ::
+    Model.VoluntarioOfertaId
+    -> Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3,
+     Strictness: <L,U><L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ (ovid :: Model.VoluntarioOfertaId)
+                   (eta :: Yesod.Core.Types.HandlerData Foundation.App Foundation.App)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 Handler.VoluntarioOferta.getVoluntarioOfertaIdR2 eta eta1 ovid) -}
+0bf023f5aea439bd5d2672503c04b8bb
+  getVoluntarioOfertaIdR2 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> Model.VoluntarioOfertaId
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U><L,U> -}
+9b49b3b804e2ed575e056f8d60faf9ff
+  getVoluntarioOfertaR ::
+    Foundation.Handler Data.Aeson.Types.Internal.Value
+  {- Arity: 2,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.VoluntarioOferta.getVoluntarioOfertaR1
+                  `cast`
+                (Trans
+                     (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                      ->_R Sym (GHC.Types.N:IO[0] <Data.Aeson.Types.Internal.Value>_R))
+                     (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                               <Foundation.App>_N <Data.Aeson.Types.Internal.Value>_R))) -}
+4b5aee2424840040f3da9553d28ff5c0
+  getVoluntarioOfertaR1 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 2,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: (\ (r :: Yesod.Core.Types.HandlerData
+                           Foundation.App Foundation.App)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case ((Database.Persist.Sql.Run.runSqlPool
+                          @ Foundation.Handler
+                          @ Database.Persist.Sql.Types.Internal.SqlBackend
+                          @ [Database.Persist.Class.PersistEntity.Entity
+                               Model.VoluntarioOferta]
+                          (Yesod.Core.Types.$fMonadUnliftIOHandlerFor @ Foundation.App)
+                          Foundation.$fYesodAuthApp7
+                            `cast`
+                          (GHC.Classes.(%,%)
+                             <Database.Persist.Class.PersistStore.IsPersistBackend
+                                Database.Persist.Sql.Types.Internal.SqlBackend>_N
+                             ((Data.Type.Equality.~)
+                                <*>_N
+                                (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0]))
+                                <Database.Persist.Sql.Types.Internal.SqlBackend>_N)_N)_R
+                          Handler.VoluntarioOferta.getVoluntarioOfertaR5
+                            `cast`
+                          (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                    <*>_N
+                                    <Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                                    <Yesod.Core.Types.HandlerFor Foundation.App>_R
+                                    <[Database.Persist.Class.PersistEntity.Entity
+                                        Model.VoluntarioOferta]>_N))
+                          (case r `cast`
+                                (Nth:2
+                                     (Trans
+                                          ((Yesod.Core.Types.HandlerData
+                                              (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteHandlerFor[0]
+                                                        <Foundation.App>_N))
+                                              (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteHandlerFor[0]
+                                                        <Foundation.App>_N)))_R
+                                           ->_R <GHC.Types.IO
+                                                   (Yesod.Core.Types.RunHandlerEnv
+                                                      (Yesod.Core.Class.Handler.HandlerSite
+                                                         (Yesod.Core.Types.HandlerFor
+                                                            Foundation.App))
+                                                      (Yesod.Core.Class.Handler.HandlerSite
+                                                         (Yesod.Core.Types.HandlerFor
+                                                            Foundation.App)))>_R)
+                                          (<Yesod.Core.Types.HandlerData
+                                              (Yesod.Core.Class.Handler.HandlerSite
+                                                 (Yesod.Core.Types.HandlerFor Foundation.App))
+                                              (Yesod.Core.Class.Handler.HandlerSite
+                                                 (Yesod.Core.Types.HandlerFor Foundation.App))>_R
+                                           ->_R GHC.Types.N:IO[0]
+                                                    <Yesod.Core.Types.RunHandlerEnv
+                                                       (Yesod.Core.Class.Handler.HandlerSite
+                                                          (Yesod.Core.Types.HandlerFor
+                                                             Foundation.App))
+                                                       (Yesod.Core.Class.Handler.HandlerSite
+                                                          (Yesod.Core.Types.HandlerFor
+                                                             Foundation.App))>_R))) of wild { Yesod.Core.Types.HandlerData ds1 ds2 dt155 dt156 ->
+                           case ds2 of wild1 { Yesod.Core.Types.RunHandlerEnv ds4 ds5 ds3 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                           case ds6
+                                  `cast`
+                                (Nth:3
+                                     (Nth:3
+                                          (Trans
+                                               (Nth:3
+                                                    (Trans
+                                                         (<Yesod.Core.Types.HandlerData
+                                                             Foundation.App Foundation.App>_R
+                                                          ->_R Sym (GHC.Types.N:IO[0]
+                                                                        <Yesod.Core.Class.Handler.HandlerSite
+                                                                           (Yesod.Core.Types.HandlerFor
+                                                                              Foundation.App)>_R))
+                                                         (<Yesod.Core.Types.HandlerData
+                                                             Foundation.App Foundation.App>_R
+                                                          ->_R (GHC.Types.IO
+                                                                  (Sub (Yesod.Core.Class.Handler.D:R:HandlerSiteHandlerFor[0]
+                                                                            <Foundation.App>_N)))_R)))
+                                               (GHC.Types.N:IO[0]
+                                                    <Foundation.App>_R)))) of wild2 { Foundation.App ds ds12 ds13 ds14 ds15 ->
+                           ds13 } } }))
+                         `cast`
+                       (Yesod.Core.Types.N:HandlerFor[0]
+                            <Foundation.App>_N
+                            <[Database.Persist.Class.PersistEntity.Entity
+                                Model.VoluntarioOferta]>_R)
+                         r)
+                        `cast`
+                      (GHC.Types.N:IO[0]
+                           <[Database.Persist.Class.PersistEntity.Entity
+                               Model.VoluntarioOferta]>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld,
+                             Data.Vector.Vector Data.Aeson.Types.Internal.Value #)
+                        (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                         case GHC.Prim.newArray#
+                                @ Data.Aeson.Types.Internal.Value
+                                @ (Control.Monad.Primitive.PrimState
+                                     (GHC.ST.ST GHC.Prim.RealWorld))
+                                0#
+                                (Data.Vector.Mutable.uninitialised
+                                   @ Data.Aeson.Types.Internal.Value)
+                                s1
+                                  `cast`
+                                (Nth:2
+                                     (Nth:2
+                                          (Trans
+                                               (<GHC.ST.STRep
+                                                   GHC.Prim.RealWorld
+                                                   (Data.Primitive.Array.MutableArray
+                                                      (Control.Monad.Primitive.PrimState
+                                                         (GHC.ST.ST GHC.Prim.RealWorld))
+                                                      Data.Aeson.Types.Internal.Value)>_R
+                                                ->_R Sym (GHC.ST.N:ST[0]
+                                                              <GHC.Prim.RealWorld>_N
+                                                              <Data.Primitive.Array.MutableArray
+                                                                 (Control.Monad.Primitive.PrimState
+                                                                    (GHC.ST.ST GHC.Prim.RealWorld))
+                                                                 Data.Aeson.Types.Internal.Value>_R))
+                                               (((GHC.Prim.State#
+                                                    (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                              <GHC.Prim.RealWorld>_N)))_R
+                                                 ->_R ((#,#)
+                                                         <'GHC.Types.TupleRep '[]>_R
+                                                         <'GHC.Types.LiftedRep>_R
+                                                         (GHC.Prim.State#
+                                                            (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                                      <GHC.Prim.RealWorld>_N)))_R
+                                                         <Data.Primitive.Array.MutableArray
+                                                            (Control.Monad.Primitive.PrimState
+                                                               (GHC.ST.ST GHC.Prim.RealWorld))
+                                                            Data.Aeson.Types.Internal.Value>_R)_R)
+                                                ->_R <GHC.ST.ST
+                                                        GHC.Prim.RealWorld
+                                                        (Data.Primitive.Array.MutableArray
+                                                           (Control.Monad.Primitive.PrimState
+                                                              (GHC.ST.ST GHC.Prim.RealWorld))
+                                                           Data.Aeson.Types.Internal.Value)>_R)))) of ds2 { (#,#) ipv2 ipv3 ->
+                         Handler.VoluntarioOferta.getVoluntarioOfertaR_$s$wfoldlM_loop
+                           ipv2
+                             `cast`
+                           (Nth:2
+                                (Nth:3
+                                     (Nth:2
+                                          (Trans
+                                               (((GHC.Prim.State#
+                                                    (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                         <GHC.Prim.RealWorld>_N))_R
+                                                 ->_R ((#,#)
+                                                         <'GHC.Types.TupleRep '[]>_R
+                                                         <'GHC.Types.LiftedRep>_R
+                                                         (GHC.Prim.State#
+                                                            (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                                 <GHC.Prim.RealWorld>_N))_R
+                                                         <Data.Primitive.Array.MutableArray
+                                                            (Control.Monad.Primitive.PrimState
+                                                               (GHC.ST.ST GHC.Prim.RealWorld))
+                                                            Data.Aeson.Types.Internal.Value>_R)_R)
+                                                ->_R <GHC.ST.ST
+                                                        GHC.Prim.RealWorld
+                                                        (Data.Primitive.Array.MutableArray
+                                                           (Control.Monad.Primitive.PrimState
+                                                              (GHC.ST.ST GHC.Prim.RealWorld))
+                                                           Data.Aeson.Types.Internal.Value)>_R)
+                                               (<GHC.ST.STRep
+                                                   GHC.Prim.RealWorld
+                                                   (Data.Primitive.Array.MutableArray
+                                                      (Control.Monad.Primitive.PrimState
+                                                         (GHC.ST.ST GHC.Prim.RealWorld))
+                                                      Data.Aeson.Types.Internal.Value)>_R
+                                                ->_R GHC.ST.N:ST[0]
+                                                         <GHC.Prim.RealWorld>_N
+                                                         <Data.Primitive.Array.MutableArray
+                                                            (Control.Monad.Primitive.PrimState
+                                                               (GHC.ST.ST GHC.Prim.RealWorld))
+                                                            Data.Aeson.Types.Internal.Value>_R)))))
+                           (GHC.Base.map
+                              @ (Database.Persist.Class.PersistEntity.Entity
+                                   Model.VoluntarioOferta)
+                              @ Data.Aeson.Types.Internal.Value
+                              Model.$fToJSONEntity7_$ctoJSON
+                              ipv1)
+                           0#
+                           ipv3
+                             `cast`
+                           (GHC.Prim.MutableArray#
+                              (Control.Monad.Primitive.D:R:PrimStateST[0] <GHC.Prim.RealWorld>_N)
+                              <Data.Aeson.Types.Internal.Value>_R)_R
+                           0#
+                           0# }) of ds2 { (#,#) ipv2 ipv3 ->
+                 case Handler.VoluntarioOferta.getVoluntarioOfertaR3 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 case Data.Aeson.Types.Internal.$w$sunsafeInsert
+                        @ Data.Aeson.Types.Internal.Value
+                        ww1
+                        ww2
+                        ww3
+                        (Data.Aeson.Types.Internal.Array ipv3)
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Handler.VoluntarioOferta.getVoluntarioOfertaR2 ipv dt } } } }) -}
+97c28a7800aea07defba26595e52e55d
+  getVoluntarioOfertaR10 ::
+    (Database.Persist.Class.PersistEntity.PersistEntity
+       Model.VoluntarioOferta,
+     (Database.Persist.Sql.Types.Internal.SqlBackend :: *)
+     Data.Type.Equality.~
+     (Database.Persist.Sql.Types.Internal.SqlBackend :: *))
+  {- Strictness: m,
+     Unfolding: ((Model.$fPersistEntityVoluntarioOferta,
+                  Handler.VoluntarioOferta.getVoluntarioOfertaR_$d~~
+                    `cast`
+                  (Sym (Data.Type.Equality.N:~[0]
+                            <*>_N) <Database.Persist.Sql.Types.Internal.SqlBackend>_N <Database.Persist.Sql.Types.Internal.SqlBackend>_N))) -}
+c466f578194e21bea53e24e0b5b26c0e
+  getVoluntarioOfertaR2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> Data.Aeson.Types.Internal.Object
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 2, Strictness: <B,U><B,U>x -}
+e9307d9f178f915c18f33d75395aa9ff
+  getVoluntarioOfertaR3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Handler.VoluntarioOferta.getVoluntarioOfertaR4) -}
+e4116b4f73741896e519bd751bbc4102
+  getVoluntarioOfertaR4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("resp"#) -}
+19f7cd7ddcb17b04077bf4a6b22f3eac
+  getVoluntarioOfertaR5 ::
+    Database.Persist.Sql.Types.Internal.SqlBackend
+    -> Yesod.Core.Types.HandlerFor
+         Foundation.App
+         [Database.Persist.Class.PersistEntity.Entity
+            Model.VoluntarioOferta]
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (r1 :: Database.Persist.Sql.Types.Internal.SqlBackend) ->
+                 let {
+                   ds :: Yesod.Core.Types.HandlerFor
+                           Foundation.App
+                           (Data.Acquire.Internal.Acquire
+                              (Data.Conduit.Internal.Conduit.ConduitM
+                                 ()
+                                 (Database.Persist.Class.PersistEntity.Entity
+                                    Model.VoluntarioOferta)
+                                 GHC.Types.IO
+                                 ()))
+                   = Handler.VoluntarioOferta.getVoluntarioOfertaR_m1
+                       `cast`
+                     (Control.Monad.Trans.Reader.N:ReaderT[0]
+                          <*>_N
+                          <Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                          <Yesod.Core.Types.HandlerFor Foundation.App>_R
+                          <Data.Acquire.Internal.Acquire
+                             (Data.Conduit.Internal.Conduit.ConduitM
+                                ()
+                                (Database.Persist.Class.PersistEntity.Entity
+                                   Model.VoluntarioOferta)
+                                GHC.Types.IO
+                                ())>_N)
+                       r1
+                 } in
+                 (\ (r :: Yesod.Core.Types.HandlerData
+                            Foundation.App Foundation.App)
+                    (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                  case (ds
+                          `cast`
+                        (Yesod.Core.Types.N:HandlerFor[0]
+                             <Foundation.App>_N
+                             <Data.Acquire.Internal.Acquire
+                                (Data.Conduit.Internal.Conduit.ConduitM
+                                   ()
+                                   (Database.Persist.Class.PersistEntity.Entity
+                                      Model.VoluntarioOferta)
+                                   GHC.Types.IO
+                                   ())>_R)
+                          r)
+                         `cast`
+                       (GHC.Types.N:IO[0]
+                            <Data.Acquire.Internal.Acquire
+                               (Data.Conduit.Internal.Conduit.ConduitM
+                                  ()
+                                  (Database.Persist.Class.PersistEntity.Entity
+                                     Model.VoluntarioOferta)
+                                  GHC.Types.IO
+                                  ())>_R)
+                         s of ds1 { (#,#) ipv ipv1 ->
+                  (Data.Acquire.Internal.with
+                     @ GHC.Types.IO
+                     @ (Data.Conduit.Internal.Conduit.ConduitM
+                          ()
+                          (Database.Persist.Class.PersistEntity.Entity
+                             Model.VoluntarioOferta)
+                          GHC.Types.IO
+                          ())
+                     @ [Database.Persist.Class.PersistEntity.Entity
+                          Model.VoluntarioOferta]
+                     Control.Monad.IO.Unlift.$fMonadUnliftIOIO
+                     ipv1
+                     (Database.Persist.Class.PersistQuery.selectList1
+                        @ Model.VoluntarioOferta))
+                    `cast`
+                  (GHC.Types.N:IO[0]
+                       <[Database.Persist.Class.PersistEntity.Entity
+                           Model.VoluntarioOferta]>_R)
+                    ipv })
+                   `cast`
+                 (Trans
+                      (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <[Database.Persist.Class.PersistEntity.Entity
+                                         Model.VoluntarioOferta]>_R))
+                      (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                                <Foundation.App>_N
+                                <[Database.Persist.Class.PersistEntity.Entity
+                                    Model.VoluntarioOferta]>_R)))) -}
+eb22a6bfd97f44413e5339ffb94d4a8c
+  getVoluntarioOfertaR6 ::
+    [Database.Persist.Class.PersistEntity.SelectOpt
+       Model.VoluntarioOferta]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Database.Persist.Class.PersistEntity.SelectOpt
+                        Model.VoluntarioOferta)
+                   Handler.VoluntarioOferta.getVoluntarioOfertaR7
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.SelectOpt
+                           Model.VoluntarioOferta))) -}
+70131fc6feaa9698f06e39aa80ecac4d
+  getVoluntarioOfertaR7 ::
+    Database.Persist.Class.PersistEntity.SelectOpt
+      Model.VoluntarioOferta
+  {- HasNoCafRefs,
+     Unfolding: (Database.Persist.Class.PersistEntity.Asc
+                   @ Model.VoluntarioOferta
+                   @ Data.Time.Calendar.Days.Day
+                   Handler.VoluntarioOferta.getVoluntarioOfertaR8
+                     `cast`
+                   (Sym (Model.D:R:EntityFieldVoluntarioOfertatyp0[0]) <Data.Time.Calendar.Days.Day>_N)) -}
+66f76995f42df1e9a44a71cdf74c2f35
+  getVoluntarioOfertaR8 ::
+    Model.R:EntityFieldVoluntarioOfertatyp Data.Time.Calendar.Days.Day
+  {- HasNoCafRefs, Strictness: m4,
+     Unfolding: (Model.VoluntarioOfertaInicio
+                   @ Data.Time.Calendar.Days.Day
+                   Handler.VoluntarioOferta.getVoluntarioOfertaR9
+                     `cast`
+                   (Sym (Data.Type.Equality.N:~[0]
+                             <*>_N) <Data.Time.Calendar.Days.Day>_N <Data.Time.Calendar.Days.Day>_N)) -}
+f252e3abb3c6038e42d45adaab9a1735
+  getVoluntarioOfertaR9 ::
+    (Data.Time.Calendar.Days.Day :: *)
+    GHC.Types.~~
+    (Data.Time.Calendar.Days.Day :: *)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Data.Time.Calendar.Days.Day
+                   @ Data.Time.Calendar.Days.Day
+                   @~ <Data.Time.Calendar.Days.Day>_N) -}
+236bad8ca577c0ce9d48d0023251bb01
+  getVoluntarioOfertaR_$d~~ ::
+    (Database.Persist.Sql.Types.Internal.SqlBackend :: *)
+    GHC.Types.~~
+    (Database.Persist.Sql.Types.Internal.SqlBackend :: *)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Database.Persist.Sql.Types.Internal.SqlBackend
+                   @ Database.Persist.Sql.Types.Internal.SqlBackend
+                   @~ <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
+99d0d0542e792533234e52e950371b2b
+  getVoluntarioOfertaR_$s$wfoldlM_loop ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> [Data.Aeson.Types.Internal.Value]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.MutableArray#
+         GHC.Prim.RealWorld Data.Aeson.Types.Internal.Value
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Vector Data.Aeson.Types.Internal.Value #)
+  {- Arity: 6, Strictness: <S,U><S,1*U><L,U><S,U><L,U><L,U> -}
+5cbf691aeda10c6c556bb1c95c49ca43
+  getVoluntarioOfertaR_m1 ::
+    Control.Monad.Trans.Reader.ReaderT
+      Database.Persist.Sql.Types.Internal.SqlBackend
+      (Yesod.Core.Types.HandlerFor Foundation.App)
+      (Data.Acquire.Internal.Acquire
+         (Data.Conduit.Internal.Conduit.ConduitM
+            ()
+            (Database.Persist.Class.PersistEntity.Entity
+               Model.VoluntarioOferta)
+            GHC.Types.IO
+            ()))
+  {- Unfolding: (Database.Persist.Sql.Orphan.PersistQuery.$fPersistQueryReadSqlBackend_$cselectSourceRes
+                   @ Model.VoluntarioOferta
+                   @ (Yesod.Core.Types.HandlerFor Foundation.App)
+                   @ GHC.Types.IO
+                   Handler.VoluntarioOferta.getVoluntarioOfertaR10
+                     `cast`
+                   (GHC.Classes.(%,%)
+                      <Database.Persist.Class.PersistEntity.PersistEntity
+                         Model.VoluntarioOferta>_N
+                      ((Data.Type.Equality.~)
+                         <*>_N
+                         (Sym (Model.D:R:PersistEntityBackendVoluntarioOferta[0]))
+                         (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R
+                   (Yesod.Core.Types.$fMonadIOHandlerFor @ Foundation.App)
+                   Control.Monad.IO.Class.$fMonadIOIO
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.Filter
+                           Model.VoluntarioOferta))
+                   Handler.VoluntarioOferta.getVoluntarioOfertaR6) -}
+c881ecc5d16823f7ad7d056c8651d9a1
+  postVoluntarioOfertaR ::
+    Foundation.Handler Data.Aeson.Types.Internal.Value
+  {- Arity: 2,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.VoluntarioOferta.postVoluntarioOfertaR1
+                  `cast`
+                (Trans
+                     (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                      ->_R Sym (GHC.Types.N:IO[0] <Data.Aeson.Types.Internal.Value>_R))
+                     (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                               <Foundation.App>_N <Data.Aeson.Types.Internal.Value>_R))) -}
+905a26643025db3e39658d1888c4e253
+  postVoluntarioOfertaR1 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 2,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: (\ (r :: Yesod.Core.Types.HandlerData
+                           Foundation.App Foundation.App)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (Handler.VoluntarioOferta.postVoluntarioOfertaR_ds
+                         `cast`
+                       (Yesod.Core.Types.N:HandlerFor[0]
+                            <Foundation.App>_N <Model.VoluntarioOferta>_R)
+                         r)
+                        `cast`
+                      (GHC.Types.N:IO[0] <Model.VoluntarioOferta>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ((Database.Persist.Sql.Run.runSqlPool
+                          @ Foundation.Handler
+                          @ Database.Persist.Sql.Types.Internal.SqlBackend
+                          @ (Database.Persist.Class.PersistEntity.Key Model.VoluntarioOferta)
+                          (Yesod.Core.Types.$fMonadUnliftIOHandlerFor @ Foundation.App)
+                          Foundation.$fYesodAuthApp7
+                            `cast`
+                          (GHC.Classes.(%,%)
+                             <Database.Persist.Class.PersistStore.IsPersistBackend
+                                Database.Persist.Sql.Types.Internal.SqlBackend>_N
+                             ((Data.Type.Equality.~)
+                                <*>_N
+                                (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0]))
+                                <Database.Persist.Sql.Types.Internal.SqlBackend>_N)_N)_R
+                          (Database.Persist.Sql.Orphan.PersistStore.$fPersistStoreWriteSqlBackend_$cinsert
+                             @ (Yesod.Core.Types.HandlerFor Foundation.App)
+                             @ Model.VoluntarioOferta
+                             (Yesod.Core.Types.$fMonadIOHandlerFor @ Foundation.App)
+                             Handler.VoluntarioOferta.getVoluntarioOfertaR10
+                               `cast`
+                             (GHC.Classes.(%,%)
+                                <Database.Persist.Class.PersistEntity.PersistEntity
+                                   Model.VoluntarioOferta>_N
+                                ((Data.Type.Equality.~)
+                                   <*>_N
+                                   (Sym (Model.D:R:PersistEntityBackendVoluntarioOferta[0]))
+                                   (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R
+                             ipv1)
+                          (case r `cast`
+                                (Nth:2
+                                     (Trans
+                                          ((Yesod.Core.Types.HandlerData
+                                              (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteHandlerFor[0]
+                                                        <Foundation.App>_N))
+                                              (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteHandlerFor[0]
+                                                        <Foundation.App>_N)))_R
+                                           ->_R <GHC.Types.IO
+                                                   (Yesod.Core.Types.RunHandlerEnv
+                                                      (Yesod.Core.Class.Handler.HandlerSite
+                                                         (Yesod.Core.Types.HandlerFor
+                                                            Foundation.App))
+                                                      (Yesod.Core.Class.Handler.HandlerSite
+                                                         (Yesod.Core.Types.HandlerFor
+                                                            Foundation.App)))>_R)
+                                          (<Yesod.Core.Types.HandlerData
+                                              (Yesod.Core.Class.Handler.HandlerSite
+                                                 (Yesod.Core.Types.HandlerFor Foundation.App))
+                                              (Yesod.Core.Class.Handler.HandlerSite
+                                                 (Yesod.Core.Types.HandlerFor Foundation.App))>_R
+                                           ->_R GHC.Types.N:IO[0]
+                                                    <Yesod.Core.Types.RunHandlerEnv
+                                                       (Yesod.Core.Class.Handler.HandlerSite
+                                                          (Yesod.Core.Types.HandlerFor
+                                                             Foundation.App))
+                                                       (Yesod.Core.Class.Handler.HandlerSite
+                                                          (Yesod.Core.Types.HandlerFor
+                                                             Foundation.App))>_R))) of wild { Yesod.Core.Types.HandlerData ds2 ds3 dt155 dt156 ->
+                           case ds3 of wild1 { Yesod.Core.Types.RunHandlerEnv ds4 ds5 ds7 ds6 ds8 ds9 ds10 ds11 ds12 ->
+                           case ds6
+                                  `cast`
+                                (Nth:3
+                                     (Nth:3
+                                          (Trans
+                                               (Nth:3
+                                                    (Trans
+                                                         (<Yesod.Core.Types.HandlerData
+                                                             Foundation.App Foundation.App>_R
+                                                          ->_R Sym (GHC.Types.N:IO[0]
+                                                                        <Yesod.Core.Class.Handler.HandlerSite
+                                                                           (Yesod.Core.Types.HandlerFor
+                                                                              Foundation.App)>_R))
+                                                         (<Yesod.Core.Types.HandlerData
+                                                             Foundation.App Foundation.App>_R
+                                                          ->_R (GHC.Types.IO
+                                                                  (Sub (Yesod.Core.Class.Handler.D:R:HandlerSiteHandlerFor[0]
+                                                                            <Foundation.App>_N)))_R)))
+                                               (GHC.Types.N:IO[0]
+                                                    <Foundation.App>_R)))) of wild2 { Foundation.App ds ds13 ds14 ds15 ds16 ->
+                           ds14 } } }))
+                         `cast`
+                       (Yesod.Core.Types.N:HandlerFor[0]
+                            <Foundation.App>_N
+                            <Database.Persist.Class.PersistEntity.Key
+                               Model.VoluntarioOferta>_R)
+                         r)
+                        `cast`
+                      (GHC.Types.N:IO[0]
+                           <Database.Persist.Class.PersistEntity.Key
+                              Model.VoluntarioOferta>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 Handler.VoluntarioOferta.postVoluntarioOfertaR2 ipv2 ipv3 } }) -}
+35f73919ef6445cdc954e295107871de
+  postVoluntarioOfertaR2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> Database.Persist.Class.PersistEntity.Key Model.VoluntarioOferta
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 2, Strictness: <B,U><B,1*U(U)>x, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Prim.State# GHC.Prim.RealWorld)
+                   (w1 :: Database.Persist.Class.PersistEntity.Key
+                            Model.VoluntarioOferta) ->
+                 case w1
+                        `cast`
+                      (Trans
+                           (Model.D:R:KeyVoluntarioOferta0[0])
+                           (Trans
+                                (Model.N:R:KeyVoluntarioOferta[0])
+                                (Trans
+                                     (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
+                                     (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))) of ww { GHC.Int.I64# ww1 ->
+                 Handler.VoluntarioOferta.$wlvl w ww1 }) -}
+4ce7237eb704eab961222ce56b8dae73
+  postVoluntarioOfertaR_ds ::
+    Yesod.Core.Types.HandlerFor Foundation.App Model.VoluntarioOferta
+  {- Unfolding: (Yesod.Core.Json.requireJsonBody
+                   @ (Yesod.Core.Types.HandlerFor Foundation.App)
+                   @ Model.VoluntarioOferta
+                   (Yesod.Core.Class.Handler.$fMonadHandlerHandlerFor
+                      @ Foundation.App)
+                   Model.$fFromJSONVoluntarioOferta) -}
+"SPEC/Handler.VoluntarioOferta $fToJSON(,,)_$cliftToJSON2 @ (Entity
+                                                              Oferta)" [orphan] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                                                                                                          (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                             Model.Oferta))
+  Data.Aeson.Types.ToJSON.$fToJSON(,,)_$cliftToJSON2 @ (Database.Persist.Class.PersistEntity.Entity
+                                                          Model.Oferta)
+                                                     $dToJSON
+  = Handler.VoluntarioOferta.$s$fToJSON(,,)_$cliftToJSON2
+"SPEC/Handler.VoluntarioOferta $fToJSON(,,)_$cliftToJSON2 @ (Entity
+                                                              VoluntarioOferta)" [orphan] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                                                                                                                    (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                                       Model.VoluntarioOferta))
+  Data.Aeson.Types.ToJSON.$fToJSON(,,)_$cliftToJSON2 @ (Database.Persist.Class.PersistEntity.Entity
+                                                          Model.VoluntarioOferta)
+                                                     $dToJSON
+  = Handler.VoluntarioOferta.$s$fToJSON(,,)_$cliftToJSON1
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,932 @@
+
+==================== FINAL INTERFACE ====================
+2018-06-10 20:36:10.184944 UTC
+
+interface IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Settings.StaticFiles 8022
+  interface hash: 800dfd62724457f330f3ee8aaf6376b9
+  ABI hash: 50602f0cfce09ecc3f156855e0d2d9b9
+  export-list hash: 51487ef1216265b4059cc5f0e115eaa3
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ab845dfbfaa1d1a14bdfa00595967389
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Settings.StaticFiles.css_bootstrap_css
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf
+  Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff
+module dependencies: Settings
+package dependencies: StateVar-1.1.1.0 adjunctions-4.4
+                      aeson-1.2.4.0 aeson-compat-0.3.7.1 ansi-terminal-0.8.0.4
+                      appar-0.1.4 array-0.5.2.0 asn1-encoding-0.9.5 asn1-parse-0.9.4
+                      asn1-types-0.3.2 async-2.1.1.1 attoparsec-0.13.2.2
+                      attoparsec-iso8601-1.0.0.0 auto-update-0.1.4 base-4.10.1.0
+                      base-compat-0.9.3 base-orphans-0.7 base64-bytestring-1.0.0.1
+                      basement-0.0.7 basic-prelude-0.7.0 bifunctors-5.5.2 binary-0.8.5.1
+                      blaze-builder-0.4.1.0 blaze-html-0.9.0.1 blaze-markup-0.8.2.1
+                      bsb-http-chunked-0.0.0.2 byteable-0.1.1 byteorder-1.0.4
+                      bytestring-0.10.8.2 case-insensitive-1.2.0.11 cereal-0.5.5.0
+                      chunked-data-0.3.1 cipher-aes-0.2.11 classy-prelude-1.4.0
+                      classy-prelude-conduit-1.4.0 classy-prelude-yesod-1.4.0
+                      clientsession-0.9.1.2 colour-2.3.4 comonad-5.0.3 conduit-1.3.0.2
+                      conduit-extra-1.3.0 connection-0.2.8 containers-0.5.10.2
+                      contravariant-1.4.1 cookie-0.4.4 cprng-aes-0.6.1 crypto-api-0.13.3
+                      crypto-cipher-types-0.0.9 crypto-random-0.0.9 cryptonite-0.25
+                      cryptonite-conduit-0.2.2 css-text-0.1.3.0 data-default-0.7.1.1
+                      data-default-class-0.1.2.0 data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      deepseq-generics-0.2.0.0 directory-1.3.0.2 distributive-0.5.3
+                      dlist-0.8.0.4 dlist-instances-0.1.1.1 easy-file-0.2.2
+                      email-validate-2.3.2.5 entropy-0.3.8 exceptions-0.8.3
+                      fast-logger-2.4.11 file-embed-0.0.10.1 filepath-1.4.1.2 free-5.0.2
+                      ghc-boot-th-8.2.2 ghc-prim-0.5.1.1 hashable-1.2.7.0
+                      haskell-src-exts-1.20.2 haskell-src-meta-0.8.0.2 hourglass-0.2.11
+                      http-api-data-0.3.7.2 http-client-0.5.12.1 http-client-tls-0.3.5.3
+                      http-conduit-2.3.1 http-date-0.0.7 http-types-0.12.1 http2-1.6.3
+                      integer-gmp-1.0.1.0 integer-logarithms-1.0.2.1 iproute-1.7.5
+                      kan-extensions-5.1 keys-3.12 lifted-base-0.2.3.12 memory-0.14.16
+                      mime-types-0.1.0.7 monad-control-1.0.2.3 monad-logger-0.3.28.5
+                      monad-loops-0.4.3 mono-traversable-1.0.8.1
+                      mono-traversable-instances-0.1.0.0 mtl-2.2.2
+                      mutable-containers-0.3.4 network-2.6.3.5 network-uri-2.6.1.0
+                      old-locale-1.0.0.7 old-time-1.1.0.3 parsec-3.1.13.0
+                      path-pieces-0.2.1 pem-0.2.4 persistent-2.8.2
+                      persistent-postgresql-2.8.2.0 persistent-template-2.5.4
+                      pointed-5.0.1 postgresql-libpq-0.9.4.1 postgresql-simple-0.5.3.0
+                      pretty-1.1.3.3 primitive-0.6.3.0 process-1.6.1.0 profunctors-5.2.2
+                      psqueues-0.2.7.0 random-1.1 resource-pool-0.2.3.2 resourcet-1.2.1
+                      safe-0.3.17 say-0.1.0.0 scientific-0.3.6.2 securemem-0.1.10
+                      semigroupoids-5.2.2 shakespeare-2.0.15 silently-1.2.5
+                      simple-sendfile-0.2.27 skein-1.0.9.4 socks-0.5.6 split-0.2.3.3
+                      stm-2.4.5.0 stm-chans-3.0.0.4 streaming-commons-0.1.19
+                      stringsearch-0.3.6.6 tagged-0.8.5 tagsoup-0.14.6
+                      template-haskell-2.12.0.0 text-1.2.3.0 time-1.8.0.2
+                      time-locale-compat-0.1.1.4 tls-1.4.1 transformers-0.5.2.0
+                      transformers-base-0.4.4 transformers-compat-0.5.1.4 unix-2.7.2.2
+                      unix-compat-0.5.0.1 unix-time-0.3.8 unliftio-0.2.7.0
+                      unliftio-core-0.1.1.0 unordered-containers-0.2.9.0
+                      utf8-string-1.0.1.1 uuid-types-1.0.3 vault-0.3.1.0 vector-0.12.0.1
+                      vector-algorithms-0.7.0.1 vector-instances-3.4 wai-3.2.1.2
+                      wai-app-static-3.1.6.2 wai-extra-3.0.22.0 wai-logger-2.3.2
+                      warp-3.2.22 word8-0.1.3 x509-1.7.3 x509-store-1.6.6
+                      x509-system-1.6.6 x509-validation-1.6.10 xml-conduit-1.8.0
+                      xml-types-0.3.6 xss-sanitize-0.3.5.7 yaml-0.8.30 yesod-1.6.0
+                      yesod-core-1.6.5 yesod-form-1.6.1 yesod-newsfeed-1.6.1.0
+                      yesod-persistent-1.6.0 yesod-static-1.6.0 zlib-0.6.2
+orphans: mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+         vector-instances-3.4:Data.Vector.Instances
+         base-orphans-0.7:Data.Orphans
+         persistent-template-2.5.4:Database.Persist.TH
+         http-client-0.5.12.1:Network.HTTP.Client.Request
+         haskell-src-exts-1.20.2:Language.Haskell.Exts.Parser
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+         colour-2.3.4:Data.Colour crypto-api-0.13.3:Crypto.Classes
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         unix-time-0.3.8:Data.UnixTime.Diff
+         vector-0.12.0.1:Data.Vector.Unboxed
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         stm-2.4.5.0:Control.Monad.STM
+         data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         transformers-0.5.2.0:Control.Monad.Trans.Error
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic
+         network-2.6.3.5:Network.Socket text-1.2.3.0:Data.Text.Lazy
+         basement-0.0.7:Basement.UArray.Base basement-0.0.7:Basement.Block
+         text-1.2.3.0:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.0:Data.Text.Show base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.2.4.0:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.10.1.0:Control.Applicative base-4.10.1.0:Data.Complex
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Compose
+                         base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats basement-0.0.7:Basement.Block.Base
+                         basement-0.0.7:Basement.Monad
+                         basement-0.0.7:Basement.MutableBuilder basement-0.0.7:Basement.Nat
+                         basement-0.0.7:Basement.NonEmpty
+                         basement-0.0.7:Basement.Numerical.Subtractive
+                         basement-0.0.7:Basement.PrimType basement-0.0.7:Basement.String
+                         basement-0.0.7:Basement.String.Encoding.ASCII7
+                         basement-0.0.7:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.7:Basement.String.Encoding.UTF16
+                         basement-0.0.7:Basement.String.Encoding.UTF32
+                         basement-0.0.7:Basement.Types.OffsetSize
+                         basement-0.0.7:Basement.UArray.Base
+                         basement-0.0.7:Basement.UTF8.Base
+                         bifunctors-5.5.2:Data.Bifunctor.Biff
+                         bifunctors-5.5.2:Data.Bifunctor.Clown
+                         bifunctors-5.5.2:Data.Bifunctor.Flip
+                         bifunctors-5.5.2:Data.Bifunctor.Join
+                         bifunctors-5.5.2:Data.Bifunctor.Joker
+                         bifunctors-5.5.2:Data.Bifunctor.Product
+                         bifunctors-5.5.2:Data.Bifunctor.Sum
+                         bifunctors-5.5.2:Data.Bifunctor.Tannen
+                         bifunctors-5.5.2:Data.Bifunctor.Wrapped
+                         conduit-1.3.0.2:Data.Conduit.Internal.Conduit
+                         conduit-1.3.0.2:Data.Conduit.Internal.Pipe
+                         containers-0.5.10.2:Data.IntMap.Internal
+                         containers-0.5.10.2:Data.IntSet.Internal
+                         containers-0.5.10.2:Data.Map.Internal
+                         containers-0.5.10.2:Data.Sequence.Internal
+                         containers-0.5.10.2:Data.Set.Internal containers-0.5.10.2:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.4:Data.DList
+                         email-validate-2.3.2.5:Text.Email.Parser
+                         free-5.0.2:Control.Comonad.Cofree free-5.0.2:Control.Monad.Free
+                         free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.2.2:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.2.2:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.Syntax
+                         http-client-0.5.12.1:Network.HTTP.Client iproute-1.7.5:Data.IP.Addr
+                         iproute-1.7.5:Data.IP.Range kan-extensions-5.1:Data.Functor.Day
+                         keys-3.12:Data.Key
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         monad-logger-0.3.28.5:Control.Monad.Logger
+                         mono-traversable-1.0.8.1:Data.Containers
+                         mono-traversable-1.0.8.1:Data.MonoTraversable
+                         mono-traversable-1.0.8.1:Data.NonNull
+                         mono-traversable-1.0.8.1:Data.Sequences
+                         mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+                         mutable-containers-0.3.4:Data.Mutable.BRef
+                         mutable-containers-0.3.4:Data.Mutable.Class
+                         mutable-containers-0.3.4:Data.Mutable.DLList
+                         mutable-containers-0.3.4:Data.Mutable.Deque
+                         mutable-containers-0.3.4:Data.Mutable.PRef
+                         mutable-containers-0.3.4:Data.Mutable.SRef
+                         mutable-containers-0.3.4:Data.Mutable.URef
+                         network-uri-2.6.1.0:Network.URI
+                         persistent-2.8.2:Database.Persist.Class.PersistConfig
+                         persistent-2.8.2:Database.Persist.Class.PersistEntity
+                         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.8.2:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.8.2.0:Database.Persist.Postgresql
+                         pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep
+                         resourcet-1.2.1:Control.Monad.Trans.Resource.Internal
+                         shakespeare-2.0.15:Text.Internal.Css
+                         shakespeare-2.0.15:Text.Shakespeare tagged-0.8.5:Data.Tagged
+                         template-haskell-2.12.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.0:Data.Text text-1.2.3.0:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         vector-instances-3.4:Data.Vector.Instances
+                         xml-types-0.3.6:Data.XML.Types
+                         yesod-core-1.6.5:Yesod.Core.Class.Handler
+                         yesod-core-1.6.5:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.6.5:Yesod.Core.Types yesod-static-1.6.0:Yesod.Static
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  Settings bc7e615098106e7dd104b5d41b99250e
+  exports: 2e20317c315cd43f11c789913a839a20
+  appStaticDir 070027da476f91b32221b3509e9f252e
+  compileTimeAppSettings f3b88b2ac660e39b44f4513928ef7966
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  text-1.2.3.0:Data.Text 0519455f2b04d2a7315c2959461dd14e
+import  -/  yesod-static-1.6.0:Yesod.Static f19a70462b76dfc61a3ddf7e4b60feeb
+ec7f469f480d12a6704babbae752da72
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Settings.StaticFiles.$trModule3
+                   Settings.StaticFiles.$trModule1) -}
+c3918f0eb6043c507e772786e122b758
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Settings.StaticFiles.$trModule2) -}
+25be0a8520b3126f92a86b636ecf8fc8
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Settings.StaticFiles"#) -}
+fbbac731832f1ca9b934fa9bbe6197ed
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Settings.StaticFiles.$trModule4) -}
+936d900e452cdf31091514d8415f6ed5
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH"#) -}
+4c27a757071f681c832bab9a7faa67c0
+  $wouter ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+ff7748b532f2bcd3a5314edd10efe341
+  $wouter1 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+56e4f196e981f6e591530737903051cd
+  $wouter2 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+00e0a2a840f480cce45d0b5c304725a9
+  $wouter3 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+344c2ad45721cf01badd36a0178e41d9
+  $wouter4 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+72bd7731aaad7b68326b8f4040fd97f4
+  $wouter5 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+95f2d1a5bb143f62d8d9c05dc3e5572c
+  $wouter6 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+9ec8af08f6158f94709b1d78fd2e3f65
+  $wouter7 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+9955cdabd4d87c59f03845e11552eb7d
+  $wouter8 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+ef99ce7284426a17be90c117c52208f8
+  $wouter9 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+94ac299f9569e426141add15fd2ed284
+  css_bootstrap_css :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.css_bootstrap_css1
+                  `cast`
+                (Sym (Yesod.Static.D:R:RouteStatic0[0])) -}
+870664b62d6f1eb03cbfe2bf4d70c5bd
+  css_bootstrap_css1 :: Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.css_bootstrap_css8
+                   Settings.StaticFiles.css_bootstrap_css2) -}
+0be75dd9fa6375a2a053e70c95fa4eea
+  css_bootstrap_css10 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.css_bootstrap_css11 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+58246655fd7ab20c2dd6435e9fb238a7
+  css_bootstrap_css11 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.css_bootstrap_css12)
+                   0#
+                   ipv }) -}
+fdc28b8c35fc969eec66a4ac5728cb59
+  css_bootstrap_css12 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bootstrap.css"#) -}
+db28032fbb5067c2a4c764220ea1f698
+  css_bootstrap_css13 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.css_bootstrap_css14 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+a7c343469e37db7aff300c6612fe085d
+  css_bootstrap_css14 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter1
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.css_bootstrap_css15)
+                   0#
+                   ipv }) -}
+c13260e2a986ba81019e0464a72bd2c3
+  css_bootstrap_css15 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("css"#) -}
+01f2652aa0c1d997cd071904f7679236
+  css_bootstrap_css2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.css_bootstrap_css3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+17f3238afac30a9aa3db097adfbb8f07
+  css_bootstrap_css3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.css_bootstrap_css6,
+                  Settings.StaticFiles.css_bootstrap_css4)) -}
+4c67151abdcfe5ab57a2b5ee83002530
+  css_bootstrap_css4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Settings.StaticFiles.css_bootstrap_css5) -}
+194f50159b757d9e276ce664e37ebc8e
+  css_bootstrap_css5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("PDMJ7RwX"#) -}
+a170d0ad9bbb57d22a554507436321c0
+  css_bootstrap_css6 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Settings.StaticFiles.css_bootstrap_css7) -}
+d88419c5fad83f69a1936df68c021092
+  css_bootstrap_css7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("etag"#) -}
+c4821f98deffa252b82ec78adeeac238
+  css_bootstrap_css8 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.css_bootstrap_css13
+                   Settings.StaticFiles.css_bootstrap_css9) -}
+7e9785a4b188a64ba491781b748862d9
+  css_bootstrap_css9 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.css_bootstrap_css10
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+bdb7a330701971135d870b2d1aed455a
+  fonts_glyphicons_halflings_regular_eot :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot1
+                  `cast`
+                (Sym (Yesod.Static.D:R:RouteStatic0[0])) -}
+8e82fadc0f4d59ba018116813afc4976
+  fonts_glyphicons_halflings_regular_eot1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot6
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot2) -}
+a58711ca1cf91446a939fc89d94ca8a0
+  fonts_glyphicons_halflings_regular_eot10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("glyphicons-halflings-regular.eot"#) -}
+b872f4405680300716810d5997d5c9aa
+  fonts_glyphicons_halflings_regular_eot11 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot12 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+1cfe4dd63f8866b592033c67184820f6
+  fonts_glyphicons_halflings_regular_eot12 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter3
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot13)
+                   0#
+                   ipv }) -}
+b2f5b5544bced41dfd57b6d8d9809602
+  fonts_glyphicons_halflings_regular_eot13 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("fonts"#) -}
+fc4568c7ab639b9bfc32887446a2ad67
+  fonts_glyphicons_halflings_regular_eot2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+10ae385a347587e110a2678ab0b2aaa2
+  fonts_glyphicons_halflings_regular_eot3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.css_bootstrap_css6,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot4)) -}
+000e4dbe67b88042c26053051cf6a225
+  fonts_glyphicons_halflings_regular_eot4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot5) -}
+8d15b5f5cc93e6c11f4a7d8382bf1388
+  fonts_glyphicons_halflings_regular_eot5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("etF8YIXe"#) -}
+46cc5507d27bc078cfbef75504480005
+  fonts_glyphicons_halflings_regular_eot6 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot11
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot7) -}
+76df44136246d4dfaaa7643c8a46ec29
+  fonts_glyphicons_halflings_regular_eot7 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot8
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+6ba1f63934e533e9fb4e456a60e52bb7
+  fonts_glyphicons_halflings_regular_eot8 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot9 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+5ece59496f0826e69cfbb871e71f6640
+  fonts_glyphicons_halflings_regular_eot9 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter2
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot10)
+                   0#
+                   ipv }) -}
+97175efbb1d11c548ea00817efb54343
+  fonts_glyphicons_halflings_regular_svg :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg1
+                  `cast`
+                (Sym (Yesod.Static.D:R:RouteStatic0[0])) -}
+d662ec99a69fc183fbfe51a433b37b9e
+  fonts_glyphicons_halflings_regular_svg1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg6
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg2) -}
+24c0f8e6228b658f683d6a8238caea9e
+  fonts_glyphicons_halflings_regular_svg10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("glyphicons-halflings-regular.svg"#) -}
+cf870421fff986d65c945529e3f6a732
+  fonts_glyphicons_halflings_regular_svg11 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg12 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+60979ac21f763c88b602242ff3b4afef
+  fonts_glyphicons_halflings_regular_svg12 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter5
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot13)
+                   0#
+                   ipv }) -}
+5a41e6ef25cb4297f2d71dbbdcb0138e
+  fonts_glyphicons_halflings_regular_svg2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+536034e6c7b9ebae3ed7e609d5d2069c
+  fonts_glyphicons_halflings_regular_svg3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.css_bootstrap_css6,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg4)) -}
+14601691a13bd13525f0e3a50033c02e
+  fonts_glyphicons_halflings_regular_svg4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg5) -}
+041dcd7e667f875f75d414dc9783c7cb
+  fonts_glyphicons_halflings_regular_svg5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("MpQdYzAE"#) -}
+20016997ada38c6bb49f1e614d54cf2f
+  fonts_glyphicons_halflings_regular_svg6 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg11
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg7) -}
+91bca3a12bded6b42744a18b5020a69e
+  fonts_glyphicons_halflings_regular_svg7 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg8
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+f1e2ea7e0c61c3ac1ff9af04241346fd
+  fonts_glyphicons_halflings_regular_svg8 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg9 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+4b5f3088a054d97d072907b6326c9369
+  fonts_glyphicons_halflings_regular_svg9 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter4
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_svg10)
+                   0#
+                   ipv }) -}
+48aaced7c1980ddcea48ff74ae05e847
+  fonts_glyphicons_halflings_regular_ttf :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf1
+                  `cast`
+                (Sym (Yesod.Static.D:R:RouteStatic0[0])) -}
+fc40e9915d226b27f1563c28627682f4
+  fonts_glyphicons_halflings_regular_ttf1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf6
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf2) -}
+7a1a4a4ee12cf32c50c55fe3dde1552f
+  fonts_glyphicons_halflings_regular_ttf10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("glyphicons-halflings-regular.ttf"#) -}
+a70d051a13f4c2b56780b378cb532668
+  fonts_glyphicons_halflings_regular_ttf11 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf12 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+1394cec0235ced6945460b8fefbc76be
+  fonts_glyphicons_halflings_regular_ttf12 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter7
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot13)
+                   0#
+                   ipv }) -}
+4f837cfb52b5dc716bf7e25836148209
+  fonts_glyphicons_halflings_regular_ttf2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+90be0d1f2b2fec86e7af4b9c7acfb27b
+  fonts_glyphicons_halflings_regular_ttf3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.css_bootstrap_css6,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf4)) -}
+2437c66e796de65a0a54f0b33bf58b75
+  fonts_glyphicons_halflings_regular_ttf4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf5) -}
+ef1b7aa5873050a83ab1dbf1a25e62aa
+  fonts_glyphicons_halflings_regular_ttf5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("5J1S50t2"#) -}
+3cbd5607a31a5dd6ba9fe25d528c3932
+  fonts_glyphicons_halflings_regular_ttf6 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf11
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf7) -}
+9d936578c10558f22d51714a71643551
+  fonts_glyphicons_halflings_regular_ttf7 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf8
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+1635dcbe68c73b185bf0a81d2ce8f9dc
+  fonts_glyphicons_halflings_regular_ttf8 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf9 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+827df1784d125583b7b3b9da5d0192af
+  fonts_glyphicons_halflings_regular_ttf9 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter6
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_ttf10)
+                   0#
+                   ipv }) -}
+216554f7c580e37fd278303ec7525821
+  fonts_glyphicons_halflings_regular_woff :: Yesod.Static.StaticRoute
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff1
+                  `cast`
+                (Sym (Yesod.Static.D:R:RouteStatic0[0])) -}
+bdf22bde3a31a2977d0878df20c4492f
+  fonts_glyphicons_halflings_regular_woff1 ::
+    Yesod.Static.R:RouteStatic
+  {- Strictness: m,
+     Unfolding: (Yesod.Static.StaticRoute
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff6
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff2) -}
+262a54a56e92353c0f37c1a24adbc393
+  fonts_glyphicons_halflings_regular_woff10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("glyphicons-halflings-regular.woff"#) -}
+8aef1a3dcaa2669f5cb97819dca6307d
+  fonts_glyphicons_halflings_regular_woff11 ::
+    Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff12 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+8a7250eef925abab893deff356e80561
+  fonts_glyphicons_halflings_regular_woff12 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter9
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_eot13)
+                   0#
+                   ipv }) -}
+cc174dc06a91b75eca027ba274294b23
+  fonts_glyphicons_halflings_regular_woff2 ::
+    [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff3
+                   (GHC.Types.[]
+                      @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+cb0a27bd21ddcca17bda0981a7c68613
+  fonts_glyphicons_halflings_regular_woff3 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m,
+     Unfolding: ((Settings.StaticFiles.css_bootstrap_css6,
+                  Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff4)) -}
+bb20f79bfe35913bd40e8180b7b7a25e
+  fonts_glyphicons_halflings_regular_woff4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff5) -}
+98646901b1fdd6a45b3689e95bf5a2e8
+  fonts_glyphicons_halflings_regular_woff5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("aO0drAa_"#) -}
+839ba0bd9c64a15bd41c167199a217ac
+  fonts_glyphicons_halflings_regular_woff6 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff11
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff7) -}
+3f90c97c978fef461f8bb54d0989e7b3
+  fonts_glyphicons_halflings_regular_woff7 ::
+    [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff8
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+83b010f67dcd398baaeecac33e0f0c0a
+  fonts_glyphicons_halflings_regular_woff8 :: Data.Text.Internal.Text
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff9 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+f3f39df0aa863bccefb65de5d084eb2d
+  fonts_glyphicons_halflings_regular_woff9 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        10#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Settings.StaticFiles.$wouter8
+                   ipv1
+                   4#
+                   (GHC.CString.unpackCString#
+                      Settings.StaticFiles.fonts_glyphicons_halflings_regular_woff10)
+                   0#
+                   ipv }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

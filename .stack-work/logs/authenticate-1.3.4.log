@@ -1,0 +1,46 @@
+Configuring authenticate-1.3.4...
+Preprocessing library for authenticate-1.3.4..
+Building library for authenticate-1.3.4..
+[1 of 9] Compiling OpenId2.XRDS     ( OpenId2/XRDS.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/OpenId2/XRDS.o )
+[2 of 9] Compiling Web.Authenticate.BrowserId ( Web/Authenticate/BrowserId.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Web/Authenticate/BrowserId.o )
+[3 of 9] Compiling Web.Authenticate.Internal ( Web/Authenticate/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Web/Authenticate/Internal.o )
+[4 of 9] Compiling OpenId2.Types    ( OpenId2/Types.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/OpenId2/Types.o )
+[5 of 9] Compiling OpenId2.Normalization ( OpenId2/Normalization.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/OpenId2/Normalization.o )
+[6 of 9] Compiling OpenId2.Discovery ( OpenId2/Discovery.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/OpenId2/Discovery.o )
+
+[;1mOpenId2/Discovery.hs:153:8: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m153 |[0m[0m        [;1m[35m$$[0m[0m tokenStream
+[;1m[34m    |[0m[0m[;1m[35m        ^^[0m[0m
+[0m[0m[0m
+[;1mOpenId2/Discovery.hs:154:8: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m154 |[0m[0m        [;1m[35m=$[0m[0m CL.mapMaybe linkTag
+[;1m[34m    |[0m[0m[;1m[35m        ^^[0m[0m
+[0m[0m[0m
+[;1mOpenId2/Discovery.hs:155:8: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m155 |[0m[0m        [;1m[35m=$[0m[0m CL.filter isOpenId
+[;1m[34m    |[0m[0m[;1m[35m        ^^[0m[0m
+[0m[0m[0m
+[;1mOpenId2/Discovery.hs:156:8: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m156 |[0m[0m        [;1m[35m=$[0m[0m CL.consume
+[;1m[34m    |[0m[0m[;1m[35m        ^^[0m[0m
+[0m[0m[0m[7 of 9] Compiling Web.Authenticate.OpenId ( Web/Authenticate/OpenId.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Web/Authenticate/OpenId.o )
+[8 of 9] Compiling Web.Authenticate.OpenId.Providers ( Web/Authenticate/OpenId/Providers.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Web/Authenticate/OpenId/Providers.o )
+[9 of 9] Compiling Web.Authenticate.Rpxnow ( Web/Authenticate/Rpxnow.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Web/Authenticate/Rpxnow.o )
+Installing library in /home/ubuntu/.stack/snapshots/x86_64-linux/lts-11.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/authenticate-1.3.4-4eXEtPFEMjz8fDk9K7JL4G
+Registering library for authenticate-1.3.4..

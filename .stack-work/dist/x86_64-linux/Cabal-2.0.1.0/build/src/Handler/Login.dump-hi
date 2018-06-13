@@ -1,0 +1,590 @@
+
+==================== FINAL INTERFACE ====================
+2018-06-13 00:53:52.219923 UTC
+
+interface IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Handler.Login 8022
+  interface hash: 96dc9aa043f8098f45635f201ac3ea51
+  ABI hash: 00b07edda264a56930a5c11f7cc5c39a
+  export-list hash: 3d9b546a253f811226acf5c49b50f222
+  orphan hash: b5062a1eb2568e81e6603365d1e2002b
+  flag hash: 579078ad03f65a83e72f91abb17e37d1
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Handler.Login.postLoginAppR
+module dependencies: Foundation Import Import.NoFoundation Model
+                     Settings Settings.StaticFiles
+package dependencies: StateVar-1.1.1.0 adjunctions-4.4
+                      aeson-1.2.4.0 aeson-compat-0.3.7.1 ansi-terminal-0.8.0.4
+                      appar-0.1.4 array-0.5.2.0 asn1-encoding-0.9.5 asn1-parse-0.9.4
+                      asn1-types-0.3.2 async-2.1.1.1 attoparsec-0.13.2.2
+                      attoparsec-iso8601-1.0.0.0 authenticate-1.3.4 auto-update-0.1.4
+                      base-4.10.1.0 base-compat-0.9.3 base-orphans-0.7
+                      base64-bytestring-1.0.0.1 basement-0.0.7 basic-prelude-0.7.0
+                      bifunctors-5.5.2 binary-0.8.5.1 blaze-builder-0.4.1.0
+                      blaze-html-0.9.0.1 blaze-markup-0.8.2.1 bsb-http-chunked-0.0.0.2
+                      byteable-0.1.1 byteorder-1.0.4 bytestring-0.10.8.2
+                      case-insensitive-1.2.0.11 cereal-0.5.5.0 chunked-data-0.3.1
+                      cipher-aes-0.2.11 classy-prelude-1.4.0 classy-prelude-conduit-1.4.0
+                      classy-prelude-yesod-1.4.0 clientsession-0.9.1.2 colour-2.3.4
+                      comonad-5.0.3 conduit-1.3.0.2 conduit-extra-1.3.0 connection-0.2.8
+                      containers-0.5.10.2 contravariant-1.4.1 cookie-0.4.4
+                      cprng-aes-0.6.1 crypto-api-0.13.3 crypto-cipher-types-0.0.9
+                      crypto-random-0.0.9 cryptonite-0.25 cryptonite-conduit-0.2.2
+                      css-text-0.1.3.0 data-default-0.7.1.1 data-default-class-0.1.2.0
+                      data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      deepseq-generics-0.2.0.0 directory-1.3.0.2 distributive-0.5.3
+                      dlist-0.8.0.4 dlist-instances-0.1.1.1 easy-file-0.2.2
+                      email-validate-2.3.2.5 entropy-0.3.8 exceptions-0.8.3
+                      fast-logger-2.4.11 file-embed-0.0.10.1 filepath-1.4.1.2 free-5.0.2
+                      ghc-boot-th-8.2.2 ghc-prim-0.5.1.1 hashable-1.2.7.0
+                      haskell-src-exts-1.20.2 haskell-src-meta-0.8.0.2 hjsmin-0.2.0.2
+                      hourglass-0.2.11 http-api-data-0.3.7.2 http-client-0.5.12.1
+                      http-client-tls-0.3.5.3 http-conduit-2.3.1 http-date-0.0.7
+                      http-types-0.12.1 http2-1.6.3 integer-gmp-1.0.1.0
+                      integer-logarithms-1.0.2.1 iproute-1.7.5 kan-extensions-5.1
+                      keys-3.12 language-javascript-0.6.0.11 lifted-base-0.2.3.12
+                      memory-0.14.16 mime-types-0.1.0.7 monad-control-1.0.2.3
+                      monad-logger-0.3.28.5 monad-loops-0.4.3 mono-traversable-1.0.8.1
+                      mono-traversable-instances-0.1.0.0 mtl-2.2.2
+                      mutable-containers-0.3.4 network-2.6.3.5 network-uri-2.6.1.0
+                      old-locale-1.0.0.7 old-time-1.1.0.3 parsec-3.1.13.0
+                      path-pieces-0.2.1 pem-0.2.4 persistent-2.8.2
+                      persistent-postgresql-2.8.2.0 persistent-template-2.5.4
+                      pointed-5.0.1 postgresql-libpq-0.9.4.1 postgresql-simple-0.5.3.0
+                      pretty-1.1.3.3 primitive-0.6.3.0 process-1.6.1.0 profunctors-5.2.2
+                      psqueues-0.2.7.0 random-1.1 resource-pool-0.2.3.2 resourcet-1.2.1
+                      safe-0.3.17 say-0.1.0.0 scientific-0.3.6.2 securemem-0.1.10
+                      semigroupoids-5.2.2 shakespeare-2.0.15 silently-1.2.5
+                      simple-sendfile-0.2.27 skein-1.0.9.4 socks-0.5.6 split-0.2.3.3
+                      stm-2.4.5.0 stm-chans-3.0.0.4 streaming-commons-0.1.19
+                      stringsearch-0.3.6.6 tagged-0.8.5 tagsoup-0.14.6
+                      tagstream-conduit-0.5.5.3 template-haskell-2.12.0.0 text-1.2.3.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.4 tls-1.4.1
+                      transformers-0.5.2.0 transformers-base-0.4.4
+                      transformers-compat-0.5.1.4 unix-2.7.2.2 unix-compat-0.5.0.1
+                      unix-time-0.3.8 unliftio-0.2.7.0 unliftio-core-0.1.1.0
+                      unordered-containers-0.2.9.0 utf8-string-1.0.1.1 uuid-types-1.0.3
+                      vault-0.3.1.0 vector-0.12.0.1 vector-algorithms-0.7.0.1
+                      vector-instances-3.4 wai-3.2.1.2 wai-app-static-3.1.6.2
+                      wai-extra-3.0.22.0 wai-logger-2.3.2 warp-3.2.22 word8-0.1.3
+                      x509-1.7.3 x509-store-1.6.6 x509-system-1.6.6
+                      x509-validation-1.6.10 xml-conduit-1.8.0 xml-types-0.3.6
+                      xss-sanitize-0.3.5.7 yaml-0.8.30 yesod-1.6.0 yesod-auth-1.6.3
+                      yesod-core-1.6.5 yesod-form-1.6.1 yesod-newsfeed-1.6.1.0
+                      yesod-persistent-1.6.0 yesod-static-1.6.0 zlib-0.6.2
+orphans: mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+         vector-instances-3.4:Data.Vector.Instances
+         base-orphans-0.7:Data.Orphans
+         data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         yesod-auth-1.6.3:Yesod.Auth
+         http-client-0.5.12.1:Network.HTTP.Client.Request
+         persistent-template-2.5.4:Database.Persist.TH
+         colour-2.3.4:Data.Colour crypto-api-0.13.3:Crypto.Classes
+         basement-0.0.7:Basement.UArray.Base basement-0.0.7:Basement.Block
+         network-2.6.3.5:Network.Socket
+         haskell-src-exts-1.20.2:Language.Haskell.Exts.Parser
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+         unix-time-0.3.8:Data.UnixTime.Diff
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.0:Data.Text.Lazy
+         text-1.2.3.0:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.0:Data.Text.Show
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         transformers-0.5.2.0:Control.Monad.Trans.Error
+         stm-2.4.5.0:Control.Monad.STM time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Foundation
+                         IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Model
+                         adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.2.4.0:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.10.1.0:Control.Applicative base-4.10.1.0:Data.Complex
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Compose
+                         base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats basement-0.0.7:Basement.Block.Base
+                         basement-0.0.7:Basement.Monad
+                         basement-0.0.7:Basement.MutableBuilder basement-0.0.7:Basement.Nat
+                         basement-0.0.7:Basement.NonEmpty
+                         basement-0.0.7:Basement.Numerical.Subtractive
+                         basement-0.0.7:Basement.PrimType basement-0.0.7:Basement.String
+                         basement-0.0.7:Basement.String.Encoding.ASCII7
+                         basement-0.0.7:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.7:Basement.String.Encoding.UTF16
+                         basement-0.0.7:Basement.String.Encoding.UTF32
+                         basement-0.0.7:Basement.Types.OffsetSize
+                         basement-0.0.7:Basement.UArray.Base
+                         basement-0.0.7:Basement.UTF8.Base
+                         bifunctors-5.5.2:Data.Bifunctor.Biff
+                         bifunctors-5.5.2:Data.Bifunctor.Clown
+                         bifunctors-5.5.2:Data.Bifunctor.Flip
+                         bifunctors-5.5.2:Data.Bifunctor.Join
+                         bifunctors-5.5.2:Data.Bifunctor.Joker
+                         bifunctors-5.5.2:Data.Bifunctor.Product
+                         bifunctors-5.5.2:Data.Bifunctor.Sum
+                         bifunctors-5.5.2:Data.Bifunctor.Tannen
+                         bifunctors-5.5.2:Data.Bifunctor.Wrapped
+                         conduit-1.3.0.2:Data.Conduit.Internal.Conduit
+                         conduit-1.3.0.2:Data.Conduit.Internal.Pipe
+                         containers-0.5.10.2:Data.IntMap.Internal
+                         containers-0.5.10.2:Data.IntSet.Internal
+                         containers-0.5.10.2:Data.Map.Internal
+                         containers-0.5.10.2:Data.Sequence.Internal
+                         containers-0.5.10.2:Data.Set.Internal containers-0.5.10.2:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.4:Data.DList
+                         email-validate-2.3.2.5:Text.Email.Parser
+                         free-5.0.2:Control.Comonad.Cofree free-5.0.2:Control.Monad.Free
+                         free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.2.2:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.2.2:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.Syntax
+                         http-client-0.5.12.1:Network.HTTP.Client iproute-1.7.5:Data.IP.Addr
+                         iproute-1.7.5:Data.IP.Range kan-extensions-5.1:Data.Functor.Day
+                         keys-3.12:Data.Key
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         monad-logger-0.3.28.5:Control.Monad.Logger
+                         mono-traversable-1.0.8.1:Data.Containers
+                         mono-traversable-1.0.8.1:Data.MonoTraversable
+                         mono-traversable-1.0.8.1:Data.NonNull
+                         mono-traversable-1.0.8.1:Data.Sequences
+                         mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+                         mutable-containers-0.3.4:Data.Mutable.BRef
+                         mutable-containers-0.3.4:Data.Mutable.Class
+                         mutable-containers-0.3.4:Data.Mutable.DLList
+                         mutable-containers-0.3.4:Data.Mutable.Deque
+                         mutable-containers-0.3.4:Data.Mutable.PRef
+                         mutable-containers-0.3.4:Data.Mutable.SRef
+                         mutable-containers-0.3.4:Data.Mutable.URef
+                         network-uri-2.6.1.0:Network.URI
+                         persistent-2.8.2:Database.Persist.Class.PersistConfig
+                         persistent-2.8.2:Database.Persist.Class.PersistEntity
+                         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.8.2:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.8.2.0:Database.Persist.Postgresql
+                         pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep
+                         resourcet-1.2.1:Control.Monad.Trans.Resource.Internal
+                         shakespeare-2.0.15:Text.Internal.Css
+                         shakespeare-2.0.15:Text.Shakespeare tagged-0.8.5:Data.Tagged
+                         template-haskell-2.12.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.0:Data.Text text-1.2.3.0:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         vector-instances-3.4:Data.Vector.Instances
+                         xml-types-0.3.6:Data.XML.Types yesod-auth-1.6.3:Yesod.Auth
+                         yesod-auth-1.6.3:Yesod.Auth.Routes
+                         yesod-core-1.6.5:Yesod.Core.Class.Handler
+                         yesod-core-1.6.5:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.6.5:Yesod.Core.Types yesod-static-1.6.0:Yesod.Static
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  Foundation d8dfd41e5ca0aa4fa64f74ef82850bd5
+  Handler c47de90e540ccea1173f100b8ea1bf32
+import  -/  Import d2a2ad1a2e43889a57b80292c008e78d
+  exports: 9ed660c05ab47b96cffd42010aa4b38a
+import  -/  Model 690c55138ea9a00345704b644bb474fa
+  EscolaEmail c6757c4e4829136e07fd3635f3bdcc43
+  EscolaSenha f242d9c764b5dcbfeed7157b2aeed1db
+  HostEmail fc5a8a5bb765814f9d0fe99a02dfa0f8
+  HostSenha 0717616290e04b8e45643364cd0022a9
+  VoluntarioEmail 291b32cfc2bab7c627e3d695873ace26
+  VoluntarioSenha fe486abfbdd84dfc64c118fbfc32dd35
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.Internal 784b71bc86ee16e29783284c611f3837
+import  -/  aeson-1.2.4.0:Data.Aeson.Types.ToJSON 72e379d37083588a3575a678e59632aa
+import  -/  http-types-0.12.1:Network.HTTP.Types.Status 6172b4730ff68a0204e2f520adb9992b
+import  -/  persistent-2.8.2:Database.Persist 6083a23cdfba0e849ee2bbe12206ca90
+import  -/  persistent-2.8.2:Database.Persist.Class.PersistQuery 308afab9ea67f302da5d776ff27d419f
+import  -/  persistent-postgresql-2.8.2.0:Database.Persist.Postgresql 96ae6311fad18b19e9619e3fd2e51c56
+import  -/  text-1.2.3.0:Data.Text.Internal 5d98ec4bb692174ed69de0b9299773d5
+import  -/  yesod-core-1.6.5:Yesod.Core.Handler 50f39555795fab4e524233a5550cf412
+import  -/  yesod-core-1.6.5:Yesod.Core.Json 9cfb7919d14e0fd89f3e215a3c6c3ef1
+import  -/  yesod-core-1.6.5:Yesod.Core.Types 4698219290971bfaa4f63d519186fd0a
+import  -/  yesod-persistent-1.6.0:Yesod.Persist.Core 9ece31adbd925b93c5f8679a2f1ad61e
+60e5e60d857c8b7b9b07f366d18a6956
+  $s$WEscolaEmail_$d~~ ::
+    (Data.Text.Internal.Text :: *)
+    GHC.Types.~~
+    (Data.Text.Internal.Text :: *)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Data.Text.Internal.Text
+                   @ Data.Text.Internal.Text
+                   @~ <Data.Text.Internal.Text>_N) -}
+eaf6c2bec72125efd77fcf29b9f2beb7
+  $s$fFromJSON(,) ::
+    Data.Aeson.Types.FromJSON.FromJSON
+      (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                  (Data.Aeson.Types.FromJSON.withArray
+                     @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                     (GHC.Base.build
+                        @ GHC.Types.Char
+                        (\ @ b1 -> GHC.CString.unpackFoldrCString# @ b1 "(a, b)"#))
+                     (\ (t :: Data.Aeson.Types.Internal.Array) ->
+                      let {
+                        n :: Data.Vector.Fusion.Util.Id GHC.Types.Int
+                        = Data.Vector.Fusion.Bundle.Monadic.length
+                            @ Data.Vector.Fusion.Util.Id
+                            @ Data.Vector.Vector
+                            @ Data.Aeson.Types.Internal.Value
+                            Data.Vector.Fusion.Util.$fMonadId
+                            (Data.Vector.Fusion.Bundle.Monadic.fromVector
+                               @ Data.Vector.Fusion.Util.Id
+                               @ Data.Vector.Vector
+                               @ Data.Aeson.Types.Internal.Value
+                               Data.Vector.Fusion.Util.$fMonadId
+                               (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                               t)
+                      } in
+                      case GHC.Classes.eqInt
+                             n `cast` (Data.Vector.Fusion.Util.N:Id[0] <GHC.Types.Int>_R)
+                             (GHC.Types.I# 2#) of wild {
+                        GHC.Types.False
+                        -> let {
+                             msg20 :: GHC.Base.String
+                             = GHC.Base.build
+                                 @ GHC.Types.Char
+                                 (\ @ b1
+                                    (c :: GHC.Types.Char -> b1 -> b1)[OneShot]
+                                    (n1 :: b1)[OneShot] ->
+                                  GHC.CString.unpackFoldrCString#
+                                    @ b1
+                                    "cannot unpack array of length "#
+                                    c
+                                    (GHC.Base.foldr
+                                       @ GHC.Types.Char
+                                       @ b1
+                                       c
+                                       (GHC.CString.unpackFoldrCString#
+                                          @ b1
+                                          " into a tuple of length 2"#
+                                          c
+                                          n1)
+                                       (GHC.Show.showSignedInt
+                                          GHC.Show.$fShow(,)1
+                                          n `cast`
+                                          (Data.Vector.Fusion.Util.N:Id[0] <GHC.Types.Int>_R)
+                                          (GHC.Types.[] @ GHC.Types.Char))))
+                           } in
+                           (\ @ f4 :: * -> *
+                              @ r
+                              (path :: Data.Aeson.Types.Internal.JSONPath)
+                              (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                              (_ks :: Data.Aeson.Types.Internal.Success
+                                        (Data.Text.Internal.Text, Data.Text.Internal.Text) f4 r) ->
+                            kf
+                              (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                              msg20)
+                             `cast`
+                           (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                     <(Data.Text.Internal.Text, Data.Text.Internal.Text)>_R))
+                        GHC.Types.True
+                        -> let {
+                             p :: Data.Aeson.Types.Internal.Parser Data.Text.Internal.Text
+                             = case Data.Vector.Generic.unsafeIndex
+                                      @ Data.Vector.Vector
+                                      @ Data.Aeson.Types.Internal.Value
+                                      (Data.Vector.$fVectorVectora
+                                         @ Data.Aeson.Types.Internal.Value)
+                                      t
+                                      (GHC.Types.I# 0#) of wild1 {
+                                 DEFAULT
+                                 -> let {
+                                      msg20 :: GHC.Base.String
+                                      = GHC.CString.unpackAppendCString#
+                                          Data.Aeson.Types.FromJSON.typeMismatch4
+                                          (GHC.Base.augment
+                                             @ GHC.Types.Char
+                                             (\ @ b
+                                                (c :: GHC.Types.Char -> b -> b)[OneShot]
+                                                (n1 :: b)[OneShot] ->
+                                              GHC.CString.unpackFoldrCString# @ b "Text"# c n1)
+                                             (GHC.CString.unpackAppendCString#
+                                                Data.Aeson.Types.FromJSON.typeMismatch3
+                                                (case wild1 of wild2 {
+                                                   Data.Aeson.Types.Internal.Object ds
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList10
+                                                   Data.Aeson.Types.Internal.Array ds
+                                                   -> Data.Aeson.Types.FromJSON.typeMismatch1
+                                                   Data.Aeson.Types.Internal.Number ds
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList6
+                                                   Data.Aeson.Types.Internal.Bool ds
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList4
+                                                   Data.Aeson.Types.Internal.Null
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList1 })))
+                                    } in
+                                    (\ @ f4 :: * -> *
+                                       @ r
+                                       (path :: Data.Aeson.Types.Internal.JSONPath)
+                                       (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                                       (_ks :: Data.Aeson.Types.Internal.Success
+                                                 Data.Text.Internal.Text f4 r) ->
+                                     kf
+                                       (GHC.List.reverse
+                                          @ Data.Aeson.Types.Internal.JSONPathElement
+                                          path)
+                                       msg20)
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                              <Data.Text.Internal.Text>_R))
+                                 Data.Aeson.Types.Internal.String txt
+                                 -> (\ @ f4 :: * -> *
+                                       @ r
+                                       (_path :: Data.Aeson.Types.Internal.JSONPath)
+                                       (_kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                                       (ks :: Data.Aeson.Types.Internal.Success
+                                                Data.Text.Internal.Text f4 r) ->
+                                     ks txt)
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                              <Data.Text.Internal.Text>_R)) }
+                           } in
+                           let {
+                             pathElem1 :: Data.Aeson.Types.Internal.JSONPathElement
+                             = Data.Aeson.Types.Internal.Index 0#
+                           } in
+                           let {
+                             p1 :: Data.Aeson.Types.Internal.Parser Data.Text.Internal.Text
+                             = case Data.Vector.Generic.unsafeIndex
+                                      @ Data.Vector.Vector
+                                      @ Data.Aeson.Types.Internal.Value
+                                      (Data.Vector.$fVectorVectora
+                                         @ Data.Aeson.Types.Internal.Value)
+                                      t
+                                      (GHC.Types.I# 1#) of wild1 {
+                                 DEFAULT
+                                 -> let {
+                                      msg20 :: GHC.Base.String
+                                      = GHC.CString.unpackAppendCString#
+                                          Data.Aeson.Types.FromJSON.typeMismatch4
+                                          (GHC.Base.augment
+                                             @ GHC.Types.Char
+                                             (\ @ b
+                                                (c :: GHC.Types.Char -> b -> b)[OneShot]
+                                                (n1 :: b)[OneShot] ->
+                                              GHC.CString.unpackFoldrCString# @ b "Text"# c n1)
+                                             (GHC.CString.unpackAppendCString#
+                                                Data.Aeson.Types.FromJSON.typeMismatch3
+                                                (case wild1 of wild2 {
+                                                   Data.Aeson.Types.Internal.Object ds
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList10
+                                                   Data.Aeson.Types.Internal.Array ds
+                                                   -> Data.Aeson.Types.FromJSON.typeMismatch1
+                                                   Data.Aeson.Types.Internal.Number ds
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList6
+                                                   Data.Aeson.Types.Internal.Bool ds
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList4
+                                                   Data.Aeson.Types.Internal.Null
+                                                   -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList1 })))
+                                    } in
+                                    (\ @ f4 :: * -> *
+                                       @ r
+                                       (path :: Data.Aeson.Types.Internal.JSONPath)
+                                       (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                                       (_ks :: Data.Aeson.Types.Internal.Success
+                                                 Data.Text.Internal.Text f4 r) ->
+                                     kf
+                                       (GHC.List.reverse
+                                          @ Data.Aeson.Types.Internal.JSONPathElement
+                                          path)
+                                       msg20)
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                              <Data.Text.Internal.Text>_R))
+                                 Data.Aeson.Types.Internal.String txt
+                                 -> (\ @ f4 :: * -> *
+                                       @ r
+                                       (_path :: Data.Aeson.Types.Internal.JSONPath)
+                                       (_kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                                       (ks :: Data.Aeson.Types.Internal.Success
+                                                Data.Text.Internal.Text f4 r) ->
+                                     ks txt)
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                              <Data.Text.Internal.Text>_R)) }
+                           } in
+                           let {
+                             pathElem2 :: Data.Aeson.Types.Internal.JSONPathElement
+                             = Data.Aeson.Types.Internal.Index 1#
+                           } in
+                           (\ @ f4 :: * -> *
+                              @ r
+                              (path :: Data.Aeson.Types.Internal.JSONPath)
+                              (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                              (ks :: Data.Aeson.Types.Internal.Success
+                                       (Data.Text.Internal.Text, Data.Text.Internal.Text) f4 r) ->
+                            p `cast`
+                            (Data.Aeson.Types.Internal.N:Parser[0] <Data.Text.Internal.Text>_R)
+                              @ f4
+                              @ r
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.JSONPathElement
+                                 pathElem1
+                                 path)
+                              kf
+                              (\ (a2 :: Data.Text.Internal.Text) ->
+                               p1
+                                 `cast`
+                               (Data.Aeson.Types.Internal.N:Parser[0] <Data.Text.Internal.Text>_R)
+                                 @ f4
+                                 @ r
+                                 (GHC.Types.:
+                                    @ Data.Aeson.Types.Internal.JSONPathElement
+                                    pathElem2
+                                    path)
+                                 kf
+                                 (\ (a3 :: Data.Text.Internal.Text) -> ks (a2, a3))))
+                             `cast`
+                           (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                     <(Data.Text.Internal.Text, Data.Text.Internal.Text)>_R)) }))
+                  (Data.Aeson.Types.FromJSON.$fFromJSON(,)_$cparseJSONList
+                     @ Data.Text.Internal.Text
+                     @ Data.Text.Internal.Text
+                     Data.Aeson.Types.FromJSON.$fFromJSONText0
+                     Data.Aeson.Types.FromJSON.$fFromJSONText0) -}
+d663d63e8f30c344b40d8bd5d848cce8
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Handler.Login.$trModule3
+                   Handler.Login.$trModule1) -}
+6d74dfb504b404c0897c55ae4a76669f
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Handler.Login.$trModule2) -}
+eb3ed6c8349deb6e38ef7fd897d12ae7
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Handler.Login"#) -}
+3edd3d0bb256258c424479986dbd53b2
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Handler.Login.$trModule4) -}
+7a7d0b66d40c8afe5071bc4473328278
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH"#) -}
+3c3395d415ffe49d65efd6586fa45ce1
+  postLoginAppR :: Foundation.Handler Yesod.Core.Types.TypedContent
+  {- Arity: 2,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.Login.postLoginAppR1
+                  `cast`
+                (Trans
+                     (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                      ->_R Sym (GHC.Types.N:IO[0] <Yesod.Core.Types.TypedContent>_R))
+                     (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                               <Foundation.App>_N <Yesod.Core.Types.TypedContent>_R))) -}
+59ae4e7650632b882d22932a12bfd0cc
+  postLoginAppR1 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.TypedContent #)
+  {- Arity: 2,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><S,U>,
+     Unfolding: (\ (r :: Yesod.Core.Types.HandlerData
+                           Foundation.App Foundation.App)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (Handler.Login.postLoginAppR_ds
+                         `cast`
+                       (Yesod.Core.Types.N:HandlerFor[0]
+                            <Foundation.App>_N
+                            <(Data.Text.Internal.Text, Data.Text.Internal.Text)>_R)
+                         r)
+                        `cast`
+                      (GHC.Types.N:IO[0]
+                           <(Data.Text.Internal.Text, Data.Text.Internal.Text)>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild { (,) email senha ->
+                 Handler.Login.postLoginAppR2 r senha email ipv } }) -}
+7c9f0d3e31cc0c41ae218ef38add87ee
+  postLoginAppR2 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.TypedContent #)
+  {- Arity: 4,
+     Strictness: <L,U(U,U(U,U,U,U(U,U,U(U,U,U(U),U,U(U),U(U,U,U),U),U,U),U,U,U,U,U),U,U)><L,U><L,U><S,U> -}
+d8bd9d53e22491d60009ff1948c59a39
+  postLoginAppR_ds ::
+    Yesod.Core.Types.HandlerFor
+      Foundation.App (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Unfolding: (Yesod.Core.Json.requireJsonBody
+                   @ (Yesod.Core.Types.HandlerFor Foundation.App)
+                   @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                   (Yesod.Core.Class.Handler.$fMonadHandlerHandlerFor
+                      @ Foundation.App)
+                   Handler.Login.$s$fFromJSON(,)) -}
+"SPEC/Handler.Login $fFromJSON(,) @ Text @ Text" [orphan] forall (v1 :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                          Data.Text.Internal.Text)
+                                                                 (v :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                         Data.Text.Internal.Text)
+  Data.Aeson.Types.FromJSON.$fFromJSON(,) @ Data.Text.Internal.Text
+                                          @ Data.Text.Internal.Text
+                                          v
+                                          v1
+  = Handler.Login.$s$fFromJSON(,)
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

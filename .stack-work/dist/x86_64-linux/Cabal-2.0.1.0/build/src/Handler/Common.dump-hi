@@ -1,0 +1,442 @@
+
+==================== FINAL INTERFACE ====================
+2018-06-13 00:54:48.144265 UTC
+
+interface IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Handler.Common 8022
+  interface hash: eece1955789948d3e7456ca2f724126d
+  ABI hash: d3e0de247d8511d228de3dfba5019d5e
+  export-list hash: 8e2292daf459532dc297379cdad4ee74
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: d46ca90f7e7fcc14383f455542c21745
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Handler.Common.getFaviconR
+  Handler.Common.getRobotsR
+module dependencies: Foundation Import Import.NoFoundation Model
+                     Settings Settings.StaticFiles
+package dependencies: StateVar-1.1.1.0 adjunctions-4.4
+                      aeson-1.2.4.0 aeson-compat-0.3.7.1 ansi-terminal-0.8.0.4
+                      appar-0.1.4 array-0.5.2.0 asn1-encoding-0.9.5 asn1-parse-0.9.4
+                      asn1-types-0.3.2 async-2.1.1.1 attoparsec-0.13.2.2
+                      attoparsec-iso8601-1.0.0.0 authenticate-1.3.4 auto-update-0.1.4
+                      base-4.10.1.0 base-compat-0.9.3 base-orphans-0.7
+                      base64-bytestring-1.0.0.1 basement-0.0.7 basic-prelude-0.7.0
+                      bifunctors-5.5.2 binary-0.8.5.1 blaze-builder-0.4.1.0
+                      blaze-html-0.9.0.1 blaze-markup-0.8.2.1 bsb-http-chunked-0.0.0.2
+                      byteable-0.1.1 byteorder-1.0.4 bytestring-0.10.8.2
+                      case-insensitive-1.2.0.11 cereal-0.5.5.0 chunked-data-0.3.1
+                      cipher-aes-0.2.11 classy-prelude-1.4.0 classy-prelude-conduit-1.4.0
+                      classy-prelude-yesod-1.4.0 clientsession-0.9.1.2 colour-2.3.4
+                      comonad-5.0.3 conduit-1.3.0.2 conduit-extra-1.3.0 connection-0.2.8
+                      containers-0.5.10.2 contravariant-1.4.1 cookie-0.4.4
+                      cprng-aes-0.6.1 crypto-api-0.13.3 crypto-cipher-types-0.0.9
+                      crypto-random-0.0.9 cryptonite-0.25 cryptonite-conduit-0.2.2
+                      css-text-0.1.3.0 data-default-0.7.1.1 data-default-class-0.1.2.0
+                      data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      deepseq-generics-0.2.0.0 directory-1.3.0.2 distributive-0.5.3
+                      dlist-0.8.0.4 dlist-instances-0.1.1.1 easy-file-0.2.2
+                      email-validate-2.3.2.5 entropy-0.3.8 exceptions-0.8.3
+                      fast-logger-2.4.11 file-embed-0.0.10.1 filepath-1.4.1.2 free-5.0.2
+                      ghc-boot-th-8.2.2 ghc-prim-0.5.1.1 hashable-1.2.7.0
+                      haskell-src-exts-1.20.2 haskell-src-meta-0.8.0.2 hjsmin-0.2.0.2
+                      hourglass-0.2.11 http-api-data-0.3.7.2 http-client-0.5.12.1
+                      http-client-tls-0.3.5.3 http-conduit-2.3.1 http-date-0.0.7
+                      http-types-0.12.1 http2-1.6.3 integer-gmp-1.0.1.0
+                      integer-logarithms-1.0.2.1 iproute-1.7.5 kan-extensions-5.1
+                      keys-3.12 language-javascript-0.6.0.11 lifted-base-0.2.3.12
+                      memory-0.14.16 mime-types-0.1.0.7 monad-control-1.0.2.3
+                      monad-logger-0.3.28.5 monad-loops-0.4.3 mono-traversable-1.0.8.1
+                      mono-traversable-instances-0.1.0.0 mtl-2.2.2
+                      mutable-containers-0.3.4 network-2.6.3.5 network-uri-2.6.1.0
+                      old-locale-1.0.0.7 old-time-1.1.0.3 parsec-3.1.13.0
+                      path-pieces-0.2.1 pem-0.2.4 persistent-2.8.2
+                      persistent-postgresql-2.8.2.0 persistent-template-2.5.4
+                      pointed-5.0.1 postgresql-libpq-0.9.4.1 postgresql-simple-0.5.3.0
+                      pretty-1.1.3.3 primitive-0.6.3.0 process-1.6.1.0 profunctors-5.2.2
+                      psqueues-0.2.7.0 random-1.1 resource-pool-0.2.3.2 resourcet-1.2.1
+                      safe-0.3.17 say-0.1.0.0 scientific-0.3.6.2 securemem-0.1.10
+                      semigroupoids-5.2.2 shakespeare-2.0.15 silently-1.2.5
+                      simple-sendfile-0.2.27 skein-1.0.9.4 socks-0.5.6 split-0.2.3.3
+                      stm-2.4.5.0 stm-chans-3.0.0.4 streaming-commons-0.1.19
+                      stringsearch-0.3.6.6 tagged-0.8.5 tagsoup-0.14.6
+                      tagstream-conduit-0.5.5.3 template-haskell-2.12.0.0 text-1.2.3.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.4 tls-1.4.1
+                      transformers-0.5.2.0 transformers-base-0.4.4
+                      transformers-compat-0.5.1.4 unix-2.7.2.2 unix-compat-0.5.0.1
+                      unix-time-0.3.8 unliftio-0.2.7.0 unliftio-core-0.1.1.0
+                      unordered-containers-0.2.9.0 utf8-string-1.0.1.1 uuid-types-1.0.3
+                      vault-0.3.1.0 vector-0.12.0.1 vector-algorithms-0.7.0.1
+                      vector-instances-3.4 wai-3.2.1.2 wai-app-static-3.1.6.2
+                      wai-extra-3.0.22.0 wai-logger-2.3.2 warp-3.2.22 word8-0.1.3
+                      x509-1.7.3 x509-store-1.6.6 x509-system-1.6.6
+                      x509-validation-1.6.10 xml-conduit-1.8.0 xml-types-0.3.6
+                      xss-sanitize-0.3.5.7 yaml-0.8.30 yesod-1.6.0 yesod-auth-1.6.3
+                      yesod-core-1.6.5 yesod-form-1.6.1 yesod-newsfeed-1.6.1.0
+                      yesod-persistent-1.6.0 yesod-static-1.6.0 zlib-0.6.2
+orphans: mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+         vector-instances-3.4:Data.Vector.Instances
+         base-orphans-0.7:Data.Orphans
+         data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         yesod-auth-1.6.3:Yesod.Auth
+         http-client-0.5.12.1:Network.HTTP.Client.Request
+         persistent-template-2.5.4:Database.Persist.TH
+         haskell-src-exts-1.20.2:Language.Haskell.Exts.Parser
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+         colour-2.3.4:Data.Colour crypto-api-0.13.3:Crypto.Classes
+         basement-0.0.7:Basement.UArray.Base basement-0.0.7:Basement.Block
+         network-2.6.3.5:Network.Socket
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         hashable-1.2.7.0:Data.Hashable.Generic
+         transformers-0.5.2.0:Control.Monad.Trans.Error
+         stm-2.4.5.0:Control.Monad.STM time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         text-1.2.3.0:Data.Text.Lazy text-1.2.3.0:Data.Text
+         text-1.2.3.0:Data.Text.Show unix-time-0.3.8:Data.UnixTime.Diff
+         binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder base-4.10.1.0:GHC.Float
+         base-4.10.1.0:GHC.Base
+family instance modules: IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Foundation
+                         IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH:Model
+                         adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.2.4.0:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.10.1.0:Control.Applicative base-4.10.1.0:Data.Complex
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Compose
+                         base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity
+                         base-4.10.1.0:Data.Functor.Product base-4.10.1.0:Data.Functor.Sum
+                         base-4.10.1.0:Data.List.NonEmpty base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Semigroup base-4.10.1.0:Data.Type.Equality
+                         base-4.10.1.0:Data.Version base-4.10.1.0:Data.Void
+                         base-4.10.1.0:GHC.Exts base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats basement-0.0.7:Basement.Block.Base
+                         basement-0.0.7:Basement.Monad
+                         basement-0.0.7:Basement.MutableBuilder basement-0.0.7:Basement.Nat
+                         basement-0.0.7:Basement.NonEmpty
+                         basement-0.0.7:Basement.Numerical.Subtractive
+                         basement-0.0.7:Basement.PrimType basement-0.0.7:Basement.String
+                         basement-0.0.7:Basement.String.Encoding.ASCII7
+                         basement-0.0.7:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.7:Basement.String.Encoding.UTF16
+                         basement-0.0.7:Basement.String.Encoding.UTF32
+                         basement-0.0.7:Basement.Types.OffsetSize
+                         basement-0.0.7:Basement.UArray.Base
+                         basement-0.0.7:Basement.UTF8.Base
+                         bifunctors-5.5.2:Data.Bifunctor.Biff
+                         bifunctors-5.5.2:Data.Bifunctor.Clown
+                         bifunctors-5.5.2:Data.Bifunctor.Flip
+                         bifunctors-5.5.2:Data.Bifunctor.Join
+                         bifunctors-5.5.2:Data.Bifunctor.Joker
+                         bifunctors-5.5.2:Data.Bifunctor.Product
+                         bifunctors-5.5.2:Data.Bifunctor.Sum
+                         bifunctors-5.5.2:Data.Bifunctor.Tannen
+                         bifunctors-5.5.2:Data.Bifunctor.Wrapped
+                         conduit-1.3.0.2:Data.Conduit.Internal.Conduit
+                         conduit-1.3.0.2:Data.Conduit.Internal.Pipe
+                         containers-0.5.10.2:Data.IntMap.Internal
+                         containers-0.5.10.2:Data.IntSet.Internal
+                         containers-0.5.10.2:Data.Map.Internal
+                         containers-0.5.10.2:Data.Sequence.Internal
+                         containers-0.5.10.2:Data.Set.Internal containers-0.5.10.2:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.4:Data.DList
+                         email-validate-2.3.2.5:Text.Email.Parser
+                         free-5.0.2:Control.Comonad.Cofree free-5.0.2:Control.Monad.Free
+                         free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.2.2:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.2.2:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.20.2:Language.Haskell.Exts.Syntax
+                         http-client-0.5.12.1:Network.HTTP.Client iproute-1.7.5:Data.IP.Addr
+                         iproute-1.7.5:Data.IP.Range kan-extensions-5.1:Data.Functor.Day
+                         keys-3.12:Data.Key
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         monad-logger-0.3.28.5:Control.Monad.Logger
+                         mono-traversable-1.0.8.1:Data.Containers
+                         mono-traversable-1.0.8.1:Data.MonoTraversable
+                         mono-traversable-1.0.8.1:Data.NonNull
+                         mono-traversable-1.0.8.1:Data.Sequences
+                         mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+                         mutable-containers-0.3.4:Data.Mutable.BRef
+                         mutable-containers-0.3.4:Data.Mutable.Class
+                         mutable-containers-0.3.4:Data.Mutable.DLList
+                         mutable-containers-0.3.4:Data.Mutable.Deque
+                         mutable-containers-0.3.4:Data.Mutable.PRef
+                         mutable-containers-0.3.4:Data.Mutable.SRef
+                         mutable-containers-0.3.4:Data.Mutable.URef
+                         network-uri-2.6.1.0:Network.URI
+                         persistent-2.8.2:Database.Persist.Class.PersistConfig
+                         persistent-2.8.2:Database.Persist.Class.PersistEntity
+                         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.8.2:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.8.2.0:Database.Persist.Postgresql
+                         pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep
+                         resourcet-1.2.1:Control.Monad.Trans.Resource.Internal
+                         shakespeare-2.0.15:Text.Internal.Css
+                         shakespeare-2.0.15:Text.Shakespeare tagged-0.8.5:Data.Tagged
+                         template-haskell-2.12.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.0:Data.Text text-1.2.3.0:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         vector-instances-3.4:Data.Vector.Instances
+                         xml-types-0.3.6:Data.XML.Types yesod-auth-1.6.3:Yesod.Auth
+                         yesod-auth-1.6.3:Yesod.Auth.Routes
+                         yesod-core-1.6.5:Yesod.Core.Class.Handler
+                         yesod-core-1.6.5:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.6.5:Yesod.Core.Types yesod-static-1.6.0:Yesod.Static
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  Foundation d8dfd41e5ca0aa4fa64f74ef82850bd5
+  Handler c47de90e540ccea1173f100b8ea1bf32
+import  -/  Import d2a2ad1a2e43889a57b80292c008e78d
+  exports: 9ed660c05ab47b96cffd42010aa4b38a
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:GHC.IO.Unsafe 0aa7e5adc396c9f651baef415ce018da
+import  -/  base-4.10.1.0:GHC.Num 6e1dc5d36d99a802edb39b92bb1923b8
+import  -/  bytestring-0.10.8.2:Data.ByteString.Unsafe 5d17f041f2eb6e4f6434714de163dee9
+import  -/  file-embed-0.0.10.1:Data.FileEmbed 42be5b4af1ba4f18894f4108d616f3fa
+import  -/  yesod-core-1.6.5:Yesod.Core.Content bd188f408f3163718a2a0d9f1513d8ee
+import  -/  yesod-core-1.6.5:Yesod.Core.Handler 50f39555795fab4e524233a5550cf412
+import  -/  yesod-core-1.6.5:Yesod.Core.Types 4698219290971bfaa4f63d519186fd0a
+addDependentFile "config/robots.txt"
+addDependentFile "config/favicon.ico"
+5f3705a9297c4c91990af54b04f882ea
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Handler.Common.$trModule3
+                   Handler.Common.$trModule1) -}
+e657bb0c75030367fa34eccf9dc3fb0e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Handler.Common.$trModule2) -}
+b46c3facbeede88a5d1d65c9260dc504
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Handler.Common"#) -}
+73cd7f02aabac46bae353593fb6de95c
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Handler.Common.$trModule4) -}
+77cb3d6e0cf8d177dd07751725382069
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("IAround-0.0.0-AElcV79WSJ1Etv0ISvDaRH"#) -}
+41b2d6e21d4b9cbb67edb68a231d98a1
+  getFaviconR :: Foundation.Handler Yesod.Core.Types.TypedContent
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.Common.getFaviconR1
+                  `cast`
+                (Trans
+                     (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                      ->_R Sym (GHC.Types.N:IO[0] <Yesod.Core.Types.TypedContent>_R))
+                     (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                               <Foundation.App>_N <Yesod.Core.Types.TypedContent>_R))) -}
+09ef18aab49896a7c234838fd8165188
+  getFaviconR1 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.TypedContent #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (r :: Yesod.Core.Types.HandlerData
+                           Foundation.App Foundation.App)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (Handler.Common.getFaviconR_m1
+                         `cast`
+                       (Yesod.Core.Types.N:HandlerFor[0] <Foundation.App>_N <()>_R)
+                         r)
+                        `cast`
+                      (GHC.Types.N:IO[0] <()>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv, Handler.Common.getFaviconR_x #) }) -}
+fce99fd52f780ce20df5a0115df768d7
+  getFaviconR2 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld,
+                             Data.ByteString.Internal.ByteString #)
+                        Handler.Common.getFaviconR3 of ds { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+7bc1a3dc66c28501e9d593117f6c5f67
+  getFaviconR3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Internal.ByteString #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.noDuplicate#
+                        @ GHC.Prim.RealWorld
+                        s of s' { DEFAULT ->
+                 case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        s' of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    Data.ByteString.Internal.PS
+                      Handler.Common.getFaviconR4
+                      (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                      0#
+                      1342# #) } }) -}
+7aaed9a6f805032708c1e26bdd5c6f0d
+  getFaviconR4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("\NUL\NUL\SOH\NUL\STX\NUL\DLE\DLE\NUL\NUL\SOH\NUL \NULh\EOT\NUL\NUL&\NUL\NUL\NUL\DLE\DLE\STX\NUL\SOH\NUL\SOH\NUL\\176\NUL\NUL\NUL\\142\EOT\NUL\NUL(\NUL\NUL\NUL\DLE\NUL\NUL\NUL \NUL\NUL\NUL\SOH\NUL \NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\\166^,\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\SOHA)\ESC#iJ6\\136\\131cN\\217\\144oY\\250\\147s]\\255\\141mW\\245\\131aL\\198kI3dQ3\US\SI\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL5\GS\r\n\
+                 \Y:&a~[D\\241\\143lU\\255\\141jT\\255\\140iS\\255\\140iR\\255\\140iR\\255\\140iR\\255\\139gP\\255zU=\\211^:!3A\ESC\SOH\STX\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL0\CAN\a\STXR1\ESCXyP6\\255\\135^C\\246~V<\\246xO5\\230yQ7\\211xP6\\213xP6\\213xP5\\213wP5\\213yQ7\\219mE)\\199U,\DLE\CAN\NUL\NUL\NUL\NUL\NUL\NUL\ENQ\NUL2\NAK\ETX\tT/\SYN?\DELS5\\225\\211\\159~\\188\\158pQ\\204]2\NAK\\132\NUL\NUL\NUL\ENQ\DC1\NUL\NUL\SO\DC3\NUL\NUL\SI\DC4\NUL\NUL\SI\DC3\NUL\NUL\SI\DLE\NUL\NUL\SO(\EOT\NUL\DC1M$\t\EMM$\t\t\DLE\a\SOH\aJ \EOTm;\NAK\NUL\vY/\DC3z\\144`@\\223\\204\\155y\\193{N/\\218P$\ACK\\180Q'\n\
+                 \\\141R'\n\
+                 \\\141R'\n\
+                 \\\141Q&\t\\141Q%\t\\141Q%\t\\139Q%\a\\178Q#\EOTg.\DC2\NUL.U$\STX\\255M\RS\NUL`\CAN\NUL\NUL\SI_0\DLE\\184\\177\\128^\\206\\178\\129_\\207a1\DC2\\194C\ETB\NULTF\RS\STX7G\RS\SOH<G\RS\SOH<G\GS\SOH;D\ESC\SOH2L\US\STX\\169T!\SOH\\224B\SUB\NULiU!\NUL\\255S!\NUL\\225H\FS\NUL#A\ETB\NUL>qA!\\219\\204\\154x\\192\\148bB\\208Q\"\STX\\174G\ESC\NULoI\GS\NULjI\GS\NULjI\GS\NUL{N\US\NUL\\147I\GS\NUL\\165T!\NUL\\255F\FS\NUL\\132U\"\NUL\\255U\"\NUL\\236M\US\NUL42\r\NUL2i:\SUB\\212\\202\\151t\\194\\201\\151v\\193sB\"\\233K\FS\NUL\\145E\SUB\NULDE\SUB\NULAB\EM\NULYQ \NUL\\233U\"\NUL\\255U\"\NUL\\255I\US\ETX}Z'\ACK\\255T!\NUL\\131\NUL\NUL\NUL\fW,\SI\\161\\160mL\\216\\186\\138i\\196\\176\\128_\\201\\175~]\\205f8\EM\\182S'\b\\138X*\r\\133U)\r\\131V(\t\\224\\*\t\\254\\*\n\
+                 \\\255C\US\ACKP`0\DC1\\205<\DC3\NUL\SIM(\DLEc\\135W7\\226\\207\\157|\\189\\131W9\\225{L-\\235\\201\\151v\\191\\147dD\\221f9\SUB\\255f7\EM\\255f8\SUB\\255g9\ESC\\255h:\FS\\255g9\SUB\\2524\CAN\ENQ\DC1Y-\DLE5&\DLE\NUL$xL/\\213\\201\\150t\\194\\169|^\\205qG,\\251qG+\\255\\159pQ\\216\\203\\153w\\187\\133Z<\\230sH-\\254tJ.\\255tK/\\255uL0\\255mB%\\194\NUL\NUL\NUL\NULL+\DC4EtN5\\212~V:\\249\\143fK\\230\\130[A\\243~W=\\255~X?\\255\\131\\A\\247\\143fJ\\232\\129Y?\\242~X?\\254\\129[A\\255\\129[C\\254\\128ZA\\255j@$H$\b\NUL\NULP1\GS\ESCxT<\\213\\141jR\\255\\137fO\\254\\139gP\\255\\140iR\\255\\140iS\\254\\140iR\\255\\139hR\\254\\139iR\\254\\141kT\\254\\142kU\\254\\143mW\\255|V=\\156c:\RS\ACK\NUL\NUL\NUL\NUL\ACK\STX\NUL\NULgG20\\133dN\\218\\154{g\\255\\153zf\\255\\153ye\\254\\153zf\\254\\153zf\\255\\154zf\\255\\154{g\\254\\154|i\\255\\154{g\\255\\135dM\\170tO8\DC4\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NULkL8\US\\133eP\\158\\157\\128m\\255\\167\\140{\\255\\166\\139z\\255\\166\\140z\\255\\167\\140{\\255\\168\\141|\\255\\155~j\\243\\135eOr|W?\SO\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL&\DLE\SOH\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\\202\\169\\151\NUL6\GS\t\ETXhH4#\\135hTn\\151zh\\159\\153~k\\171\\151zg\\149\\134dNZpL6\DC3_B1\SOH\\179^3\NUL\NUL\NUL\NUL\NUL\\178\\129_\NUL\\248\US\NUL\NUL\\240\a\NUL\NUL\\224\ETX\NUL\NUL\\225\\255\NUL\NUL\\240\SOH\NUL\NUL\\176\\252\NUL\NUL\\152x\NUL\NUL\CAN8\NUL\NUL\\144\NUL\NUL\NUL\\176\NUL\NUL\NUL\\224\NUL\NUL\NUL\\192\SOH\NUL\NUL\\192\SOH\NUL\NUL\\224\ETX\NUL\NUL\\240\SI\NUL\NUL\\254?\NUL\NUL(\NUL\NUL\NUL\DLE\NUL\NUL\NUL \NUL\NUL\NUL\SOH\NUL\SOH\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\\255\\255\\255\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL\NUL"#) -}
+ff6c216379b6e32c58c18dda551d6a35
+  getFaviconR5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.I# 2592000#) -}
+819100c68c8c5f0fd4e04e79375d20db
+  getFaviconR_addr# :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("image/x-icon"#) -}
+f6fbae124d5b09553c67c9c3ccce2566
+  getFaviconR_m1 :: Yesod.Core.Types.HandlerFor Foundation.App ()
+  {- Unfolding: (Yesod.Core.Handler.cacheSeconds
+                   @ (Yesod.Core.Types.HandlerFor Foundation.App)
+                   (Yesod.Core.Class.Handler.$fMonadHandlerHandlerFor
+                      @ Foundation.App)
+                   Handler.Common.getFaviconR5) -}
+03334d3026a3503a3a190374aa86c5ff
+  getFaviconR_x :: Yesod.Core.Types.TypedContent
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 case {__pkg_ccall bytestring-0.10.8.2 GHC.Prim.Addr#
+                                                       -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                       -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                             GHC.Prim.Word# #)}
+                        Handler.Common.getFaviconR_addr#
+                        ipv of wild { (#,#) ds ds2 ->
+                 case Yesod.Core.Content.$w$ctoContent
+                        Handler.Common.getFaviconR2 of ww { (#,#) ww1 ww2 ->
+                 Yesod.Core.Types.TypedContent
+                   (Data.ByteString.Internal.PS
+                      Handler.Common.getFaviconR_addr#
+                      (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                      0#
+                      (GHC.Prim.word2Int# ds2))
+                   (Yesod.Core.Types.ContentBuilder ww1 ww2) } } }) -}
+b919e2b87a11c83afe8198d3f821408b
+  getRobotsR :: Foundation.Handler Yesod.Core.Types.TypedContent
+  {- Arity: 2, Strictness: <L,A><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.Common.getRobotsR1
+                  `cast`
+                (Trans
+                     (<Yesod.Core.Types.HandlerData Foundation.App Foundation.App>_R
+                      ->_R Sym (GHC.Types.N:IO[0] <Yesod.Core.Types.TypedContent>_R))
+                     (Sym (Yesod.Core.Types.N:HandlerFor[0]
+                               <Foundation.App>_N <Yesod.Core.Types.TypedContent>_R))) -}
+27f35caa037e6c187874de985d0c8dc5
+  getRobotsR1 ::
+    Yesod.Core.Types.HandlerData Foundation.App Foundation.App
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.TypedContent #)
+  {- Arity: 2, Strictness: <L,A><S,U>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (eta :: Yesod.Core.Types.HandlerData
+                             Foundation.App Foundation.App)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 (# eta1, Handler.Common.getRobotsR_x #)) -}
+5379fe663208992042548feccef6874d
+  getRobotsR2 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld,
+                             Data.ByteString.Internal.ByteString #)
+                        Handler.Common.getRobotsR3 of ds { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+b797b06d6618456df40808193491f8d0
+  getRobotsR3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Internal.ByteString #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.noDuplicate#
+                        @ GHC.Prim.RealWorld
+                        s of s' { DEFAULT ->
+                 case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        s' of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    Data.ByteString.Internal.PS
+                      Handler.Common.getRobotsR4
+                      (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                      0#
+                      14# #) } }) -}
+9e31abca76a6a3cc161d6179688a22de
+  getRobotsR4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("User-agent: *\n"#) -}
+152c99d21cb372414d29bf5313949263
+  getRobotsR_x :: Yesod.Core.Types.TypedContent
+  {- Unfolding: (case Yesod.Core.Content.typePlain of dt { Data.ByteString.Internal.PS ipv ipv1 ipv2 ipv3 ->
+                 case Yesod.Core.Content.$w$ctoContent
+                        Handler.Common.getRobotsR2 of ww { (#,#) ww1 ww2 ->
+                 Yesod.Core.Types.TypedContent
+                   dt
+                   (Yesod.Core.Types.ContentBuilder ww1 ww2) } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

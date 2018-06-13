@@ -1,0 +1,218 @@
+Configuring tagstream-conduit-0.5.5.3...
+Preprocessing library for tagstream-conduit-0.5.5.3..
+Building library for tagstream-conduit-0.5.5.3..
+[1 of 6] Compiling Text.HTML.TagStream.Types ( Text/HTML/TagStream/Types.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/HTML/TagStream/Types.o )
+[2 of 6] Compiling Text.HTML.TagStream.Entities ( Text/HTML/TagStream/Entities.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/HTML/TagStream/Entities.o )
+
+[;1mText/HTML/TagStream/Entities.hs:31:19: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m31 |[0m[0m                -> [;1m[35mConduit[0m[0m (Token' string) m (Token' string)
+[;1m[34m   |[0m[0m[;1m[35m                   ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Entities.hs:36:51: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m36 |[0m[0m     start' (Text t) = (yield t >> yieldWhileText) [;1m[35m=$=[0m[0m decodeEntities' dec =$= CL.mapMaybe go
+[;1m[34m   |[0m[0m[;1m[35m                                                   ^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Entities.hs:36:75: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m36 |[0m[0m     start' (Text t) = (yield t >> yieldWhileText) =$= decodeEntities' dec [;1m[35m=$=[0m[0m CL.mapMaybe go
+[;1m[34m   |[0m[0m[;1m[35m                                                                           ^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Entities.hs:49:20: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m49 |[0m[0m                 -> [;1m[35mConduit[0m[0m string m string
+[;1m[34m   |[0m[0m[;1m[35m                    ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Entities.hs:63:30: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m63 |[0m[0m yieldWhileText :: Monad m => [;1m[35mConduit[0m[0m (Token' string) m string
+[;1m[34m   |[0m[0m[;1m[35m                              ^^^^^^^[0m[0m
+[0m[0m[0m[3 of 6] Compiling Text.HTML.TagStream ( Text/HTML/TagStream.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/HTML/TagStream.o )
+[4 of 6] Compiling Text.HTML.TagStream.Utils ( Text/HTML/TagStream/Utils.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/HTML/TagStream/Utils.o )
+[5 of 6] Compiling Text.HTML.TagStream.ByteString ( Text/HTML/TagStream/ByteString.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/HTML/TagStream/ByteString.o )
+
+[;1mText/HTML/TagStream/ByteString.hs:16:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m16 |[0m[0m [;1m[35mimport           Data.Monoid[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:133:32: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m133 |[0m[0m decodeEntitiesBS :: Monad m => [;1m[35mConduit[0m[0m Token m Token
+[;1m[34m    |[0m[0m[;1m[35m                                ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:145:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m145 |[0m[0m           [;1m[35m$=[0m[0m XML.parseBytes def { XML.psDecodeEntities = XML.decodeHtmlEntities }
+[;1m[34m    |[0m[0m[;1m[35m           ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:146:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m146 |[0m[0m           [;1m[35m$$[0m[0m XML.content
+[;1m[34m    |[0m[0m[;1m[35m           ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:179:65: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m179 |[0m[0m     decodeEntitiesBS' tokens = runIdentity $ mapM_ yield tokens [;1m[35m$$[0m[0m decodeEntitiesBS =$ CL.consume
+[;1m[34m    |[0m[0m[;1m[35m                                                                 ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:179:85: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m179 |[0m[0m     decodeEntitiesBS' tokens = runIdentity $ mapM_ yield tokens $$ decodeEntitiesBS [;1m[35m=$[0m[0m CL.consume
+[;1m[34m    |[0m[0m[;1m[35m                                                                                     ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:234:16: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m234 |[0m[0m             => [;1m[35mConduit[0m[0m ByteString m Token
+[;1m[34m    |[0m[0m[;1m[35m                ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/ByteString.hs:239:18: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m239 |[0m[0m     loop S.empty [;1m[35m=$=[0m[0m decodeEntitiesBS
+[;1m[34m    |[0m[0m[;1m[35m                  ^^^[0m[0m
+[0m[0m[0m[6 of 6] Compiling Text.HTML.TagStream.Text ( Text/HTML/TagStream/Text.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/HTML/TagStream/Text.o )
+
+[;1mText/HTML/TagStream/Text.hs:151:34: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m151 |[0m[0m decodeEntitiesText :: Monad m => [;1m[35mConduit[0m[0m Token m Token
+[;1m[34m    |[0m[0m[;1m[35m                                  ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:162:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m162 |[0m[0m           [;1m[35m$=[0m[0m XML.parseText def { XML.psDecodeEntities = XML.decodeHtmlEntities }
+[;1m[34m    |[0m[0m[;1m[35m           ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:162:14: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘parseText’ (imported from Text.XML.Stream.Parse):
+    Deprecated: "Please use 'parseText'' or 'parseTextPos'."[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m162 |[0m[0m           $= [;1m[35mXML.parseText[0m[0m def { XML.psDecodeEntities = XML.decodeHtmlEntities }
+[;1m[34m    |[0m[0m[;1m[35m              ^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:163:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m163 |[0m[0m           [;1m[35m$=[0m[0m CL.map snd
+[;1m[34m    |[0m[0m[;1m[35m           ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:164:11: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m164 |[0m[0m           [;1m[35m$$[0m[0m XML.content
+[;1m[34m    |[0m[0m[;1m[35m           ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:197:67: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m197 |[0m[0m     decodeEntitiesText' tokens = runIdentity $ mapM_ yield tokens [;1m[35m$$[0m[0m decodeEntitiesText =$ CL.consume
+[;1m[34m    |[0m[0m[;1m[35m                                                                   ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:197:89: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m197 |[0m[0m     decodeEntitiesText' tokens = runIdentity $ mapM_ yield tokens $$ decodeEntitiesText [;1m[35m=$[0m[0m CL.consume
+[;1m[34m    |[0m[0m[;1m[35m                                                                                         ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:251:16: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m251 |[0m[0m             => [;1m[35mConduit[0m[0m Text m Token
+[;1m[34m    |[0m[0m[;1m[35m                ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:256:18: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m256 |[0m[0m     loop T.empty [;1m[35m=$=[0m[0m decodeEntitiesText
+[;1m[34m    |[0m[0m[;1m[35m                  ^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:278:18: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘Conduit’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use ConduitT directly"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m278 |[0m[0m               => [;1m[35mConduit[0m[0m ByteString m Token
+[;1m[34m    |[0m[0m[;1m[35m                  ^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:297:20: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘=$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m297 |[0m[0m     C.decode codec [;1m[35m=$=[0m[0m tokenStream
+[;1m[34m    |[0m[0m[;1m[35m                    ^^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:318:51: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$=’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m318 |[0m[0m     decodeBS codec bs = liftM T.concat $ yield bs [;1m[35m$=[0m[0m C.decode codec $$ C.consume
+[;1m[34m    |[0m[0m[;1m[35m                                                   ^^[0m[0m
+[0m[0m[0m
+[;1mText/HTML/TagStream/Text.hs:318:69: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘$$’
+    (imported from Data.Conduit, but defined in conduit-1.3.0.2:Data.Conduit.Internal.Conduit):
+    Deprecated: "Use runConduit and .|"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m318 |[0m[0m     decodeBS codec bs = liftM T.concat $ yield bs $= C.decode codec [;1m[35m$$[0m[0m C.consume
+[;1m[34m    |[0m[0m[;1m[35m                                                                     ^^[0m[0m
+[0m[0m[0mInstalling library in /home/ubuntu/.stack/snapshots/x86_64-linux/lts-11.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/tagstream-conduit-0.5.5.3-8W6Er1bNNWCEFhslDDI6oM
+Registering library for tagstream-conduit-0.5.5.3..
