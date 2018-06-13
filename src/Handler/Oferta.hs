@@ -19,11 +19,6 @@ postOfertaR = do
     oferta <- requireJsonBody :: Handler Oferta
     oid <- runDB $ insert oferta
     sendStatusJSON created201 (object ["resp" .= fromSqlKey oid])
-
-getOfertaIdR :: OfertaId -> Handler Value
-getOfertaIdR oid = do 
-    oferta <- runDB $ get404 oid
-    sendStatusJSON ok200 (object ["resp" .= oferta])
     
 putOfertaIdR :: OfertaId -> Handler Value
 putOfertaIdR oid = do
@@ -31,10 +26,3 @@ putOfertaIdR oid = do
     novaOferta <- requireJsonBody :: Handler Oferta
     runDB $ replace oid novaOferta
     sendStatusJSON noContent204 (object [])
-
-deleteOfertaIdR :: OfertaId -> Handler Value
-deleteOfertaIdR oid = do
-    _ <- runDB $ get404 oid
-    runDB $ delete oid
-    sendStatusJSON noContent204 (object [])
-    
