@@ -13,3 +13,10 @@ getOfertaR :: Handler Value
 getOfertaR = do
     todasOfertas <- runDB $ selectList [] [Asc OfertaPais]
     sendStatusJSON ok200 (object ["resp" .= todasOfertas])
+
+postOfertaR :: Handler Value
+postOfertaR = do
+    oferta <- requireJsonBody :: Handler Oferta
+    oid <- runDB $ insert oferta
+    sendStatusJSON created201 (object ["resp" .= fromSqlKey oid])
+
