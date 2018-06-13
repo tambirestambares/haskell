@@ -30,3 +30,8 @@
 
 /voluntario                            VoluntarioR            GET POST
 /voluntario/id/#VoluntarioId           VoluntarioIdR          PUT
+
+/VoluntarioOferta                      VoluntarioOfertaR      GET POST
+/VoluntarioOferta/#VoluntarioOfertaId  VoluntarioOfertaIdR    GET
+/volOferta/#VoluntarioId               VolOfertaR             GET
+/hostOferta/#HostId                    HostOfertaR            GET
