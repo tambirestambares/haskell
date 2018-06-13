@@ -24,3 +24,10 @@ getVoluntarioIdR :: VoluntarioId -> Handler Value
 getVoluntarioIdR vid = do 
     volunt <- runDB $ get404 vid
     sendStatusJSON ok200 (object ["resp" .= volunt])
+
+putVoluntarioIdR :: VoluntarioId -> Handler Value
+putVoluntarioIdR vid = do
+    _ <- runDB $ get404 vid
+    novoVoluntario <- requireJsonBody :: Handler Voluntario
+    runDB $ replace vid novoVoluntario
+    sendStatusJSON noContent204 (object [])
