@@ -13,6 +13,8 @@
 
 /profile ProfileR GET
 
+/login                                 LoginAppR              POST
+
 /escola                                EscolaR                GET POST
 /escola/#EscolaId                      EscolaIdR              GET PUT
 
