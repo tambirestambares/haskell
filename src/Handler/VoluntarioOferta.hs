@@ -20,3 +20,9 @@ postVoluntarioOfertaR = do
     ovid <- runDB $ insert ofertav
     sendStatusJSON created201 (object ["resp" .= fromSqlKey ovid])
 
+
+getVoluntarioOfertaIdR :: VoluntarioOfertaId -> Handler Value
+getVoluntarioOfertaIdR ovid = do 
+    ofertav <- runDB $ get404 ovid
+    sendStatusJSON ok200 (object ["resp" .= ofertav])
+
