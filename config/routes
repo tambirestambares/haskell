@@ -28,3 +28,5 @@
 /oferta                                OfertaR                GET POST
 /oferta/#OfertaId                      OfertaIdR              GET PUT DELETE
 
+/voluntario                            VoluntarioR            GET POST
+/voluntario/id/#VoluntarioId           VoluntarioIdR          PUT
