@@ -168,7 +168,8 @@ instance Yesod App where
     isAuthorized (StaticR _) _ = return Authorized
 
     isAuthorized EscolaR _ = return Authorized
-    isAuthorized (EscolaIdR _) _ = return Authorized 
+    isAuthorized (EscolaIdR _) _ = return Authorized
+    isAuthorized (EscolaCursoIdR _) _ = return Authorized
     
     isAuthorized CursoR _ = return Authorized
     isAuthorized (CursoIdR _) _ = return Authorized
@@ -181,6 +182,11 @@ instance Yesod App where
     
     isAuthorized VoluntarioR _ = return Authorized
     isAuthorized (VoluntarioIdR _) _ = return Authorized
+    
+    isAuthorized VoluntarioOfertaR _ = return Authorized
+    isAuthorized (VoluntarioOfertaIdR _) _ = return Authorized
+    isAuthorized (VolOfertaR _) _ = return Authorized
+    isAuthorized (HostOfertaR _) _ = return Authorized
    
     isAuthorized LoginAppR _ = return Authorized
   
