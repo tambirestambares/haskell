@@ -23,4 +23,8 @@
 -- /curso/voluntario/#VoluntarioId        VoluntarioCursoIdR     GET
 
 /host                                  HostR                  GET POST
-/host/#HostId                          HostIdR                PUT 
+/host/#HostId                          HostIdR                PUT
+
+/oferta                                OfertaR                GET POST
+/oferta/#OfertaId                      OfertaIdR              GET PUT DELETE
+
