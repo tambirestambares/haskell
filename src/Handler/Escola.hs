@@ -24,3 +24,9 @@ getEscolaIdR eid = do
     escola <- runDB $ get404 eid
     sendStatusJSON ok200 (object ["escola" .= escola])
 
+putEscolaIdR :: EscolaId -> Handler Value
+putEscolaIdR eid = do
+    _ <- runDB $ get404 eid
+    editarEscola <- requireJsonBody :: Handler Escola
+    runDB $ replace eid editarEscola
+    sendStatusJSON noContent204 (object [])
