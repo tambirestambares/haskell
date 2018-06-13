@@ -32,3 +32,8 @@ deleteOfertaIdR oid = do
     _ <- runDB $ get404 oid
     runDB $ delete oid
     sendStatusJSON noContent204 (object [])
+    
+getOfertaIdR :: OfertaId -> Handler Value
+getOfertaIdR oid = do 
+    oferta <- runDB $ get404 oid
+    sendStatusJSON ok200 (object ["resp" .= oferta])
