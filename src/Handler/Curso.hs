@@ -34,3 +34,8 @@ putCursoIdR cid = do
     editarCurso <- requireJsonBody :: Handler Curso
     runDB $ replace cid editarCurso
     sendStatusJSON noContent204 (object [])
+    
+getEscolaCursoIdR :: EscolaId -> Handler Value
+getEscolaCursoIdR eid = do
+   cursos <- (runDB $ selectList [CursoEscolaId ==. eid ] [Asc CursoNome]) :: Handler [Entity Curso]
+   sendStatusJSON ok200 (object ["cursos" .= cursos])
